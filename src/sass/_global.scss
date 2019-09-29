@@ -46,7 +46,7 @@ hr.light {
 .about-section,
 .service-section {
 	margin: 48px 0;
-	background-image: linear-gradient(to bottom, #{fade-out($brown, .6)} 0%,#{fade-out($brown, .6)} 100%), url('../images/bottles-widescreen.jpg');	
+	background: linear-gradient(to bottom, #{fade-out($brown, .6)} 0%,#{fade-out($brown, .6)} 100%), url('../images/bottles-widescreen.jpg') no-repeat;	
 }
 
 
@@ -65,5 +65,5 @@ hr.light {
 }
 
 .site-container.navbar-scrolled #mainNav {
-	background: url(../images/brunzies-brick.jpg);
+	background-color: #fefefe;
 }
