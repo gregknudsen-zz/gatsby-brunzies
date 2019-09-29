@@ -5,6 +5,10 @@ html {
 	height: 100%;
 }
 
+body {
+	background: url(../images/brunzies-brick.jpg) no-repeat fixed;
+}
+
 // Typography
 .text-white-75 {
 	color: fade-out($white, .25);
@@ -39,6 +43,13 @@ hr.light {
 .page-section {
 	padding: 8rem 0;
 }
+.about-section,
+.service-section {
+	margin: 48px 0;
+	background-image: linear-gradient(to bottom, #{fade-out($brown, .6)} 0%,#{fade-out($brown, .6)} 100%), url('../images/bottles-widescreen.jpg');	
+}
+
+
 
 // Modal
 .modal-backdrop {
@@ -47,4 +58,12 @@ hr.light {
 
 .modal-backdrop.show {
 	opacity: 0.8;
+}
+
+.main-logo {
+	background: url('../images/brunzies-logo.jpg');
+}
+
+.site-container.navbar-scrolled #mainNav {
+	background: url(../images/brunzies-brick.jpg);
 }

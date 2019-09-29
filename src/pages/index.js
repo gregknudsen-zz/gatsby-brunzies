@@ -36,7 +36,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home"/>
-        <section className="page-section bg-primary" id="about">
+        <section className="page-section about-section bg-primary" id="about">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
@@ -54,7 +54,7 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section" id="services">
+        <section className="page-section service-section" id="services">
           <div className="container">
             <h2 className="text-center mt-0">At Your Service</h2>
             <hr className="divider my-4"/>
