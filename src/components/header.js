@@ -15,7 +15,10 @@ export default class Header extends React.Component {
         <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
                 collapseOnSelect={true}>
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}>Brunzies</a>
+          
+            <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}>
+              <div className="main-logo"></div>
+            </a>
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
               <Nav className="navbar-nav ml-auto my-2 my-lg-0">
@@ -48,9 +51,9 @@ export default class Header extends React.Component {
                 <hr className="divider my-4"/>
               </div>
               <div className="col-lg-8 align-self-baseline">
-                <p className="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites
-                  using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#hours" onClick={Scroller.handleAnchorScroll}>Find Out More</a>
+                {/* <p className="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites
+                  using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p> */}
+                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#hours" onClick={Scroller.handleAnchorScroll}>Hours!</a>
               </div>
             </div>
           </div>
