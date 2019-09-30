@@ -43,18 +43,6 @@ hr.light {
 .page-section {
 	padding: 8rem 0;
 }
-.about-section {
-	margin: 100px 0;
-	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%,#{fade-out($brown, .4)} 100%), url('../images/bottles-widescreen.jpg') no-repeat;
-}
-
-.service-section {
-	margin: 100px 0;
-	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
-	url('../images/bottles-2.jpg') no-repeat;
-	background-size: cover;
-}
-
 
 
 // Modal
@@ -68,6 +56,19 @@ hr.light {
 
 
 // Brunzies Specific Styles
+
+.about-section {
+	margin: 100px 0;
+	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
+	url('../images/bottles-widescreen.jpg') no-repeat;
+}
+
+.service-section {
+	margin: 100px 0;
+	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
+	url('../images/bottles-2.jpg') no-repeat;
+	background-size: cover;
+}
 
 .main-logo {
 	background-image: url('../images/brunzies-logo.jpg');
