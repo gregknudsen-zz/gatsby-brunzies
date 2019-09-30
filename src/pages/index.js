@@ -36,29 +36,31 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home"/>
-        <section className="page-section about-section bg-primary" id="about">
+        <section className="page-section about-section bg-primary" id="hours">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <h2 className="text-white mt-0">Hours <span><i className="fas fa-2x text-white fa-clock"></i></span></h2>
+                <h4 className="text-white mt-5">Sunday-Thursday: 4pm - Midnight</h4>
+                <h4 className="text-white mt-5">Friday-Saturday: 4pm - 2am</h4>
                 <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
+                {/* <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
                   and
                   running in no time! Choose one of our open source, free to download, and easy to use themes! No
                   strings
-                  attached!</p>
-                <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
-                   onClick={Scroller.handleAnchorScroll}>Get Started!</a>
+                  attached!</p> */}
+                <a className="btn btn-light btn-xl js-scroll-trigger" href="#menu"
+                  onClick={Scroller.handleAnchorScroll}>See Our Menu!</a>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="page-section service-section" id="services">
+        <section className="page-section service-section" id="menu">
           <div className="container">
-            <h2 className="text-center mt-0">At Your Service</h2>
+            <h2 className="text-center text-white mt-0">At Your Service</h2>
             <hr className="divider my-4"/>
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-gem text-primary mb-4"></i>
@@ -91,7 +93,7 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section id="portfolio">
+        <section id="photos">
           <div className="container-fluid p-0">
             <div className="row no-gutters">
               <div className="col-lg-4 col-sm-6">
