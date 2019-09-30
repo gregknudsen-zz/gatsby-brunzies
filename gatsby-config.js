@@ -45,6 +45,13 @@ module.exports = {
       },
     },
     `gatsby-transformer-pdf`,
+    {
+      resolve: 'gatsby-source-googlemaps-geocoding',
+      options: {
+        key: 'YOUR_GOOGLE_MAPS_GEOCODING_API_KEY',
+        address: 'ADDRESS_YOU_ARE_GEOCODING'
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
