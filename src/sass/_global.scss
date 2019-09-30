@@ -66,8 +66,9 @@ hr.light {
 .service-section {
 	margin: 100px 0;
 	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
-	url('../images/bottles-2.jpg') no-repeat;
+	url('../images/logo1.jpg') no-repeat;
 	background-size: cover;
+	padding: 16rem 0;
 }
 
 .main-logo {
