@@ -71,12 +71,17 @@ hr.light {
 	padding: 16rem 0;
 }
 
-.main-logo {
-	background-image: url('../images/brunzies-logo.jpg');
-	background-size: cover;
-	width: 305px;
-	height: 89px;
-	cursor: pointer;
+.navbar-brand .main-logo {
+	font-size: 72px;
+	background: rgb(131,58,180);
+	background: linear-gradient(180deg, #fd1d1d 43%, #fcb045 67%, #fff 75%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	// background-image: url('../images/brunzies-logo.jpg');
+	// background-size: cover;
+	// width: 305px;
+	// height: 89px;
+	// cursor: pointer;
 }
 
 .site-container.navbar-scrolled #mainNav {
