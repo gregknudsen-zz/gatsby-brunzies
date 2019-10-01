@@ -16,7 +16,7 @@ export default class Header extends React.Component {
                 collapseOnSelect={true}>
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" onClick={Scroller.handleAnchorScroll}>
-              <h1 className="main-logo" href="#page-top">Brunzies</h1>
+              <h1 className="main-logo" href="#page-top"></h1>
             </a>
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
