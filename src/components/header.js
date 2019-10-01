@@ -10,12 +10,12 @@ export default class Header extends React.Component {
   }
 
   render() {
+    console.log('Hide Logo?', this.props)
     return (
       <>
-        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
-                collapseOnSelect={true}>
+        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg" collapseOnSelect={true}>
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" onClick={Scroller.handleAnchorScroll}>
+            <a className={"navbar-brand js-scroll-trigger " + (this.props.hideLogo ? '' : 'hidden')} onClick={Scroller.handleAnchorScroll}>
               <h1 className="main-logo" href="#page-top"></h1>
             </a>
             <Navbar.Toggle aria-controls="navbarResponsive"/>
@@ -45,8 +45,7 @@ export default class Header extends React.Component {
           <div className="container h-100">
             <div className="row h-100 align-items-center justify-content-center text-center">
               <div className="col-lg-10 align-self-end">
-                <h1 className="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap
-                  Themes</h1>
+                <h1 className="text-uppercase text-white font-weight-bold">Brunzies</h1>
                 <hr className="divider my-4"/>
               </div>
               <div className="col-lg-8 align-self-baseline">

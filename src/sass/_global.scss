@@ -57,6 +57,10 @@ hr.light {
 
 // Brunzies Specific Styles
 
+.hidden {
+	display: none;
+}
+
 .about-section {
 	margin: 100px 0;
 	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
@@ -79,8 +83,8 @@ hr.light {
   // -webkit-text-fill-color: transparent;
 	background-image: url('../images/brunzies-logo-white-bg-sm.jpg');
 	background-size: cover;
-	width: 220px;
-	height: 60px;
+	width: 100px;
+	height: 28px;
 	cursor: pointer;
 	border-radius: 5px;
 }
