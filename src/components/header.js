@@ -10,10 +10,9 @@ export default class Header extends React.Component {
   }
 
   render() {
-    console.log('Hide Logo?', this.props)
     return (
       <>
-        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg" collapseOnSelect={true}>
+        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" expand="lg" collapseOnSelect={true}>
           <div className="container">
             <a className={"navbar-brand js-scroll-trigger " + (this.props.hideLogo ? '' : 'hidden')} onClick={Scroller.handleAnchorScroll}>
               <h1 className="main-logo" href="#page-top"></h1>
