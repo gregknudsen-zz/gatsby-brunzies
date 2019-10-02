@@ -62,27 +62,27 @@ export default class IndexPage extends React.Component {
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
-                  <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
+                <a className="portfolio-box" href="menus/menu-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
+                  <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Menu
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Page 1
                     </div>
                   </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/6.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
-                  <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
+                <a className="portfolio-box" href="menus/menu-page-2.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>
+                  <Img fluid={this.props.data.images.edges[7].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
-                      Category
+                      Menu
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Page 2
                     </div>
                   </div>
                 </a>
