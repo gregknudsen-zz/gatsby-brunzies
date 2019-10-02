@@ -56,7 +56,7 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section service-section" id="menu">
+        <section className="page-section menu-section" id="menu">
           <div className="container-fluid p-0">
             <h2 className="text-center text-white mt-0">The Menu</h2>
             <hr className="divider my-4"/>
@@ -66,7 +66,7 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Menu
+                      
                     </div>
                     <div className="project-name">
                       Page 1
@@ -79,7 +79,7 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[7].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
-                      Menu
+                      
                     </div>
                     <div className="project-name">
                       Page 2
@@ -95,7 +95,7 @@ export default class IndexPage extends React.Component {
           <div className="container-fluid p-0">
             <div className="row no-gutters">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/1-beer-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
@@ -108,7 +108,7 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/2-bottles2-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
@@ -121,7 +121,7 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/3.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/3-kris-ben-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
                   <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
@@ -134,7 +134,7 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="images/portfolio/fullsize/4.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
+                <a className="portfolio-box" href="images/portfolio/fullsize/4-stools-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
                   <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
@@ -147,7 +147,7 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/5-table-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
@@ -160,7 +160,7 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/6.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/6-bottles4-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
