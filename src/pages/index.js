@@ -57,38 +57,36 @@ export default class IndexPage extends React.Component {
         </section>
 
         <section className="page-section service-section" id="menu">
-          <div className="container">
-            <h2 className="text-center text-white mt-0">At Your Service</h2>
+          <div className="container-fluid p-0">
+            <h2 className="text-center text-white mt-0">The Menu</h2>
             <hr className="divider my-4"/>
-            <div className="row justify-content-center">
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
-                  <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                </div>
+            <div className="row justify-content-center no-gutters">
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
+                  <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
+                  <div className="portfolio-box-caption">
+                    <div className="project-category text-white-50">
+                      Category
+                    </div>
+                    <div className="project-name">
+                      Project Name
+                    </div>
+                  </div>
+                </a>
               </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/6.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
+                  <div className="portfolio-box-caption p-3">
+                    <div className="project-category text-white-50">
+                      Category
+                    </div>
+                    <div className="project-name">
+                      Project Name
+                    </div>
+                  </div>
+                </a>
               </div>
-              {/* <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-                </div>
-              </div> */}
-              {/* <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                </div>
-              </div> */}
             </div>
           </div>
         </section>
