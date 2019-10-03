@@ -41,7 +41,7 @@ export default class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
                 <h2 className="text-white mt-0">Hours <span><i className="fas fa-2x text-white fa-clock"></i></span></h2>
-                <h4 className="text-white mt-5">Sunday-Thursday: 4pm - Midnight</h4>
+                <h4 className="text-white mt-5">Sunday-Thursday: 4pm - 12am</h4>
                 <h4 className="text-white mt-5">Friday-Saturday: 4pm - 2am</h4>
                 <hr className="divider light my-4"/>
                 {/* <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
@@ -57,17 +57,16 @@ export default class IndexPage extends React.Component {
         </section>
 
         <section className="page-section menu-section" id="menu">
-          <div className="container-fluid p-0">
-            <h2 className="text-center text-white mt-0">The Menu</h2>
+          <div className="text-center container-fluid p-0">
+          <a className="mb-5 btn btn-light btn-xl js-scroll-trigger" href="#specials"
+                  onClick={Scroller.handleAnchorScroll}>See Daily Specials!</a>
+            <h2 className="text-center text-white mt-0">Menu</h2>
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="menus/menu-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
                   <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      
-                    </div>
                     <div className="project-name">
                       Page 1
                     </div>
@@ -78,9 +77,6 @@ export default class IndexPage extends React.Component {
                 <a className="portfolio-box" href="menus/menu-page-2.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>
                   <Img fluid={this.props.data.images.edges[7].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
-                    <div className="project-category text-white-50">
-                      
-                    </div>
                     <div className="project-name">
                       Page 2
                     </div>
@@ -88,6 +84,15 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="page-section bg-dark text-white" id="specials">
+          <div className="container text-center">
+          <h2 className="text-center text-white mt-0">Daily Specials</h2>
+          <hr className="divider my-4"/>
+            <a className="btn btn-light btn-xl js-scroll-trigger" href="#contact"
+                  onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
           </div>
         </section>
 
@@ -176,31 +181,24 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section bg-dark text-white">
-          <div className="container text-center">
-            <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-          </div>
-        </section>
-
         <section className="page-section" id="contact">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-8 text-center">
+              <div className="col-lg-8 text-white text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
+                <p className="mb-5">Ready to start your next project with us? Give us a call or send us an
                   email
                   and we will get back to you as soon as possible!</p>
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
+              <div className="col-lg-4 ml-auto text-white text-center mb-5 mb-lg-0">
+                <i className="fas fa-phone fa-3x mb-3"></i>
                 <div>+1 (202) 555-0149</div>
               </div>
-              <div className="col-lg-4 mr-auto text-center">
-                <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
+              <div className="col-lg-4 mr-auto text-center text-white">
+                <i className="fas fa-envelope fa-3x mb-3"></i>
                 <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
               </div>
             </div>

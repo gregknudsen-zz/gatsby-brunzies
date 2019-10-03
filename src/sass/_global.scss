@@ -37,6 +37,7 @@ hr.light {
 	text-transform: uppercase;
 	border: none;
 	border-radius: 10rem;
+	transition: 0.5s;
 }
 
 // Page section padding
@@ -57,8 +58,11 @@ hr.light {
 
 // Brunzies Specific Styles
 
-.hidden {
-	display: none;
+// Don't hide logo on smaller screens
+@media screen and (min-width: 813px) {
+	.hidden {
+		display: none;
+	}
 }
 
 .about-section {

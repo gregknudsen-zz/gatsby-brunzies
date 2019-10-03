@@ -20,7 +20,7 @@ const PortfolioCarousel = ({ images, current }) => {
   );
 
   return (
-    <Carousel interval={null} indicators={false} defaultActiveIndex={current} slide={false}>
+    <Carousel keyboard={true} interval={null} indicators={false} defaultActiveIndex={current} slide={true}>
       {carouselItems}
     </Carousel>
   );
