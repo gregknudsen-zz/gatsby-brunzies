@@ -89,11 +89,16 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section bg-dark text-white" id="specials">
           <div className="container text-center">
-          <h2 className="text-center text-white mt-0">Daily Specials</h2>
+          <h2 className="text-center text-white mt-0">Daily Drink Specials</h2>
           <hr className="divider my-4"/>
-            <a className="btn btn-light btn-xl js-scroll-trigger" href="#contact"
+          <p className="mt-3">Monday-Saturday: 9-11pm</p>
+          <p>1/2 off all drafts!</p>
+          <p>1/2 off all well drinks!</p>
+          <hr className="divider my-4"/>
+            <a className="btn btn-light btn-xl mt-4 js-scroll-trigger" href="#contact"
                   onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
           </div>
+          <h2 className="text-center text-white photo-header">Photo Gallery</h2>
         </section>
 
         <section id="photos">
@@ -104,10 +109,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
                     </div>
                     <div className="project-name">
-                      Project Name
+                      {/* Beer */}
+                      {/* Project Name */}
                     </div>
                   </div>
                 </a>
@@ -117,10 +122,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
                     </div>
                     <div className="project-name">
-                      Project Name
+                      {/* Booze */}
+                      {/* Project Name */}
                     </div>
                   </div>
                 </a>
@@ -130,10 +135,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
                     </div>
                     <div className="project-name">
-                      Project Name
+                      {/* Ben &amp; Kris */}
+                      {/* Project Name */}
                     </div>
                   </div>
                 </a>
@@ -143,10 +148,9 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
                     </div>
                     <div className="project-name">
-                      Project Name
+                      {/* Project Name */}
                     </div>
                   </div>
                 </a>
@@ -156,10 +160,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      {/* Category */}
                     </div>
                     <div className="project-name">
-                      Project Name
+                      {/* Project Name */}
                     </div>
                   </div>
                 </a>
@@ -169,10 +173,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
-                      Category
+                      {/* Category */}
                     </div>
                     <div className="project-name">
-                      Project Name
+                      {/* Project Name */}
                     </div>
                   </div>
                 </a>
@@ -192,15 +196,15 @@ export default class IndexPage extends React.Component {
                   and we will get back to you as soon as possible!</p>
               </div>
             </div>
-            <div className="row">
-              <div className="col-lg-4 ml-auto text-white text-center mb-5 mb-lg-0">
+            <div className="row justify-content-center">
+              <div className="col-lg-4 text-white text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3"></i>
-                <div>+1 (202) 555-0149</div>
+                <div>+1 (724) 349-2770</div>
               </div>
-              <div className="col-lg-4 mr-auto text-center text-white">
+              {/* <div className="col-lg-4 mr-auto text-center text-white">
                 <i className="fas fa-envelope fa-3x mb-3"></i>
                 <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
