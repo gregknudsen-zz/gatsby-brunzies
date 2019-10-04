@@ -39,10 +39,10 @@ export default class IndexPage extends React.Component {
         <section className="page-section about-section bg-primary" id="hours">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">Hours <span><i className="fas fa-2x text-white fa-clock"></i></span></h2>
-                <h4 className="text-white mt-5">Sunday-Thursday: 4pm - 12am</h4>
-                <h4 className="text-white mt-5">Friday-Saturday: 4pm - 2am</h4>
+              <div className="col-lg-8 text-white text-center">
+                <h2 className=" mt-0">Hours <span><i className="fas fa-2x  fa-clock"></i></span></h2>
+                <h5 className=" mt-5">Sunday-Thursday: 4pm - 12am</h5>
+                <h4 className=" mt-5">Friday-Saturday: 4pm - 2am</h4>
                 <hr className="divider light my-4"/>
                 {/* <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
                   and
@@ -98,7 +98,7 @@ export default class IndexPage extends React.Component {
             <a className="btn btn-light btn-xl mt-4 js-scroll-trigger" href="#contact"
                   onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
           </div>
-          <h2 className="text-center text-white photo-header">Photo Gallery</h2>
+          <h2 className="text-center text-white photo-header" id="photo-header">Photo Gallery</h2>
         </section>
 
         <section id="photos">
@@ -191,15 +191,20 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-white text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
                 <hr className="divider my-4"/>
-                <p className="mb-5">Ready to start your next project with us? Give us a call or send us an
-                  email
-                  and we will get back to you as soon as possible!</p>
+                <p className="mt-5">470 Philadelphia St, Indiana, PA 15701</p>
+                <p>(Right next to to Subs N' Suds!)</p>
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-lg-4 text-white text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3"></i>
                 <div>+1 (724) 349-2770</div>
+                <hr className="divider my-4"/>
+                <p className="mt-5 row align-items-center justify-content-center social-links">
+                  Follow us on <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
+                  or
+                  <a href="https://twitter.com/KrisJBruns"><i className="fab fa-3x fa-twitter social-icons"></i></a>
+                </p>
               </div>
               {/* <div className="col-lg-4 mr-auto text-center text-white">
                 <i className="fas fa-envelope fa-3x mb-3"></i>
