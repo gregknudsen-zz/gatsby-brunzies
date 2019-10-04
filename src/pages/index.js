@@ -87,16 +87,16 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section bg-dark text-white" id="specials">
-          <div className="container text-center">
-          <h2 className="text-center text-white mt-0">Daily Drink Specials</h2>
-          <hr className="divider my-4"/>
-          <p className="mt-3">Monday-Saturday: 9-11pm</p>
-          <p>1/2 off all drafts!</p>
-          <p>1/2 off all well drinks!</p>
-          <hr className="divider my-4"/>
-            <a className="btn btn-light btn-xl mt-4 js-scroll-trigger" href="#contact"
-                  onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
+        <section className="page-section text-white" id="specials">
+          <div className="container text-center specials">
+            <h2 className="text-center text-white mt-0">Daily Drink Specials</h2>
+            <hr className="divider my-4"/>
+            <p className="mt-3">Monday-Saturday: 9-11pm</p>
+            <p>1/2 off all drafts!</p>
+            <p>1/2 off all well drinks!</p>
+            <hr className="divider my-4"/>
+              <a className="btn btn-light btn-xl mt-4 js-scroll-trigger" href="#contact"
+                    onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
           </div>
           <h2 className="text-center text-white photo-header" id="photo-header">Photo Gallery</h2>
         </section>
