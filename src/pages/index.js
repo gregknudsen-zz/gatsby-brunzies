@@ -198,7 +198,7 @@ export default class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="col-lg-4 text-white text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3"></i>
-                <div>+1 (724) 349-2770</div>
+                <div className="text-white">+1 (724) 349-2770</div>
                 <hr className="divider my-4"/>
                 <p className="mt-5 row align-items-center justify-content-center social-links">
                   Follow us on <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
