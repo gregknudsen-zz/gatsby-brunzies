@@ -9,8 +9,8 @@ export default class Scroller {
     const scrollTop = window.pageYOffset || document.scrollTop;
     const fixedHeight = 72;
     const scrollTo = top + scrollTop - fixedHeight;
-    if(document.scrollTo) {
-      document.scrollTo({
+    if(document.scroll) {
+      document.scroll({
         top: scrollTo,
         left: 0,
         behavior: 'smooth'
