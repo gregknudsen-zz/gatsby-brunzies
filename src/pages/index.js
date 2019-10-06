@@ -68,7 +68,6 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-name">
-                      Page 1
                     </div>
                   </div>
                 </a>
@@ -78,7 +77,6 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[7].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-name">
-                      Page 2
                     </div>
                   </div>
                 </a>
