@@ -60,7 +60,7 @@ export default class IndexPage extends React.Component {
           <div className="text-center container-fluid p-0">
           <a className="mb-5 btn btn-light btn-xl js-scroll-trigger" href="#specials"
                   onClick={Scroller.handleAnchorScroll}>See Daily Specials!</a>
-            <h2 className="text-center text-white mt-0">Menu</h2>
+            <h2 className="text-center text-shadow text-white mt-0">Menu</h2>
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
@@ -87,16 +87,16 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section text-white" id="specials">
           <div className="container text-center specials">
-            <h2 className="text-center text-white mt-0">Daily Drink Specials</h2>
+            <h2 className="text-center text-white text-shadow mt-0">Daily Drink Specials</h2>
             <hr className="divider my-4"/>
-            <p className="mt-3">Monday-Saturday: 9-11pm</p>
-            <p>1/2 off all drafts!</p>
-            <p>1/2 off all well drinks!</p>
+            <p className="text-shadow mt-3">Monday-Saturday: 9-11pm</p>
+            <p className="text-shadow">1/2 off all drafts!</p>
+            <p className="text-shadow">1/2 off all well drinks!</p>
             <hr className="divider my-4"/>
               <a className="btn btn-light btn-xl mt-4 js-scroll-trigger" href="#contact"
                     onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
           </div>
-          <h2 className="text-center text-white photo-header" id="photo-header">Photo Gallery</h2>
+          <h2 className="text-center text-white text-shadow photo-header" id="photo-header">Photo Gallery</h2>
         </section>
 
         <section id="photos">
@@ -185,9 +185,9 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="contact">
           <div className="container">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center text-shadow">
               <div className="col-lg-8 text-white text-center">
-                <h2 className="mt-0">Let's Get In Touch!</h2>
+                <h2 className="text-shadow mt-0">Let's Get In Touch!</h2>
                 <hr className="divider my-4"/>
                 <p className="mt-5">470 Philadelphia St, Indiana, PA 15701</p>
                 <p>(Right next to to Subs N' Suds!)</p>
