@@ -40,9 +40,9 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-white text-center">
-                <h2 className=" mt-0">Hours <span><i className="fas fa-2x  fa-clock"></i></span></h2>
-                <h5 className=" mt-5">Sunday-Thursday: 4pm - 12am</h5>
-                <h4 className=" mt-5">Friday-Saturday: 4pm - 2am</h4>
+                <h2 className="text-shadow mt-0">Hours <span><i className="fas fa-2x  fa-clock"></i></span></h2>
+                <h5 className="text-shadow mt-5">Sunday-Thursday: 4pm - 12am</h5>
+                <h4 className="text-shadow mt-5">Friday-Saturday: 4pm - 2am</h4>
                 <hr className="divider light my-4"/>
                 {/* <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
                   and

@@ -26,6 +26,10 @@ body:before {
 	color: fade-out($white, .25);
 }
 
+.text-shadow {
+	text-shadow: 3px 3px 6px #222;
+}
+
 // Custom horizontal rules
 hr.divider {
 	max-width: 3.25rem;
@@ -70,12 +74,7 @@ hr.light {
 
 // Brunzies Specific Styles
 
-// Don't hide logo on smaller screens
-@media screen and (min-width: 813px) {
-	.hidden {
-		display: none;
-	}
-}
+
 
 .navbar-brand .main-logo {
 	background-image: url('../images/brunzies-logo-white-bg-sm.jpg');
@@ -117,7 +116,6 @@ header.masthead div div div p {
 .about-section,
 .menu-section {
 	margin: 100px 0;
-	background-size: cover;
 }
 
 .site-container.navbar-scrolled #mainNav {
@@ -169,4 +167,20 @@ header.masthead div div div p {
 	text-shadow: 2px 2px 5px #333;
 	font-size: 1.2rem;
 	font-family: $font-family-sans-serif;
+}
+
+// Don't hide logo on smaller screens
+@media screen and (min-width: 813px) {
+	.hidden {
+		display: none;
+	}
+
+}
+
+
+@media screen and (min-width: 768px) {
+	.menu-section,
+	.about-section {
+		background-size: cover;
+	}
 }
