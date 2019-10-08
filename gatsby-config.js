@@ -36,7 +36,8 @@ module.exports = {
           families: [
             'Merriweather:400,300,300italic,400italic,700,700italic', 
             'Merriweather+Sans:400,700',
-            'Pragati+Narrow:400,700'
+            'Pragati+Narrow:400,700',
+            'Kaushan Script'
           ]
         }
       }

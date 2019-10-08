@@ -154,26 +154,12 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/5-table-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
-                  <div className="portfolio-box-caption">
-                    <div className="project-category text-white-50">
-                      {/* Category */}
-                    </div>
-                    <div className="project-name">
-                      {/* Project Name */}
-                    </div>
-                  </div>
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/6-bottles4-overlay.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
-                    <div className="project-category text-white-50">
-                      {/* Category */}
-                    </div>
-                    <div className="project-name">
-                      {/* Project Name */}
-                    </div>
                   </div>
                 </a>
               </div>
@@ -189,7 +175,7 @@ export default class IndexPage extends React.Component {
                 <hr className="divider my-4"/>
                 <h3 className="mt-5 text-left">470 Philadelphia St</h3>
                 <h3 className="text-left contact-info-city">Indiana, PA 15701</h3>
-                <h4 className="text-right mt-3">(Right next to to Subs N' Suds!)</h4>
+                <h4 className="text-right mt-3"><em>(Right next to to Subs N' Suds!)</em></h4>
               </div>
             </div>
             <div className="row justify-content-center">

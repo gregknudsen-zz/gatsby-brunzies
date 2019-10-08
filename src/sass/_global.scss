@@ -74,8 +74,6 @@ hr.light {
 
 // Brunzies Specific Styles
 
-
-
 .navbar-brand .main-logo {
 	background-image: url('../images/brunzies-logo-white-bg-sm.jpg');
 	background-size: cover;
@@ -173,11 +171,15 @@ header.masthead div div div p {
 #contact {
 	text-shadow: 2px 2px 5px #333;
 	font-size: 1.2rem;
-	padding-bottom: 0;
+	padding-bottom: 4rem;
 }
 
 .contact-info-city {
 	margin-top: -0.5rem;
+}
+
+.signature {
+	font-family: 'Kaushan Script', cursive;
 }
 
 // Responsive
