@@ -94,7 +94,7 @@ export default class IndexPage extends React.Component {
               <a className="btn btn-primary btn-xl mt-4 js-scroll-trigger" href="#contact"
                     onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
           </div>
-          <h2 className="text-center text-white text-shadow photo-header" id="photo-header">Photo Gallery</h2>
+          <h1 className="text-center text-white text-shadow photo-header" id="photo-header">Photo Gallery</h1>
         </section>
 
         <section id="photos">
