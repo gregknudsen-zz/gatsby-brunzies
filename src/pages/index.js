@@ -187,9 +187,9 @@ export default class IndexPage extends React.Component {
               <div className="text-white text-center contact-info">
                 <h1 className="text-shadow mt-0">Contact Us!</h1>
                 <hr className="divider my-4"/>
-                <p className="mt-5 text-left">470 Philadelphia St</p>
-                <p className="text-left contact-info-city">Indiana, PA 15701</p>
-                <p className="text-right">(Right next to to Subs N' Suds!)</p>
+                <h3 className="mt-5 text-left">470 Philadelphia St</h3>
+                <h3 className="text-left contact-info-city">Indiana, PA 15701</h3>
+                <h4 className="text-right mt-3">(Right next to to Subs N' Suds!)</h4>
               </div>
             </div>
             <div className="row justify-content-center">
