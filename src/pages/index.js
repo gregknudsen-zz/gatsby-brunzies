@@ -20,6 +20,26 @@ export default class IndexPage extends React.Component {
     this.setModal = this.setModal.bind(this);
   }
 
+  popBalance() {
+    // Replace with 315 if CAPTCHA is disabled. 
+    let width = 270;
+    let height = 395; 
+    let left, top, menubar, toolbar, status, resizable = 0;
+    var merchantID = 3137988; 
+    
+    window.open('https://wwws.givex.com/Merchant_pages/'+merchantID,
+          'balanceWindow', 
+          width, 
+          height,
+          left, 
+          top, 
+          menubar, 
+          toolbar, 
+          status,
+          resizable
+      ); 
+    } 
+
   handlePortfolioClick(index, e) {
     e.preventDefault();
     this.setModal(true, index);
@@ -187,6 +207,17 @@ export default class IndexPage extends React.Component {
                   Follow us on <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
                   or
                   <a href="https://twitter.com/KrisJBruns"><i className="fab fa-3x fa-twitter social-icons"></i></a>
+                </p>
+                <hr className="divider my-4"/>
+                <p class="giftcard mt-4 text-right text-white-75">
+                  Have a giftcard?<br />
+                  Check your balance
+                  <p> 
+                    <a href="#" onClick={this.popBalance}>
+                      HERE
+                    </a>
+                  </p>
+
                 </p>
               </div>
             </div>
