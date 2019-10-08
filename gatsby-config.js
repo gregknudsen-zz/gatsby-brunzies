@@ -2,7 +2,12 @@ module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
     title: `Brunzies`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Brunzies - Established in 2013, 
+      Brunzies is a casual neighborhood bar and grill 
+      specializing in craft beer, burgers and pizzas.  
+      It is a perfect place to meet friends, grab a bite 
+      to eat, watch a game on one of our 8 big screen TV's 
+      or to just relax and have a drink.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -19,13 +24,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Brunzies bar and grille`,
+        short_name: `Brunzies`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/brunzies-icon-2.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
