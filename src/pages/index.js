@@ -39,13 +39,13 @@ export default class IndexPage extends React.Component {
         <section className="page-section about-section bg-primary" id="hours">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="text-white text-center">
+              <div className="text-white text-center about-hours">
                 <h2 className="text-shadow mt-0">Hours</h2>
                 <hr className="divider my-4"/>
-                <h4 className="text-shadow mt-5">Sunday-Thursday</h4>
-                <h4>4pm - Midnight</h4>
-                <h4 className="text-shadow mt-5">Friday-Saturday</h4>
-                <h4>4pm - 2am</h4>
+                <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
+                <h3 className="text-right text-shadow">4pm - Midnight</h3>
+                <h3 className="text-shadow mt-5">Friday-Saturday</h3>
+                <h3 className="text-right text-shadow">4pm - 2am</h3>
                 <hr className="divider my-4"/>
                 {/* <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
                   and
