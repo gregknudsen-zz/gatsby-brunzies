@@ -161,14 +161,39 @@ header.masthead div div div p {
 #specials,
 #contact {
 	background-color: rgba(52, 58, 64, 0.7);
+	font-family: $font-family-sans-serif;
+}
+
+
+
+#specials div p {
+	font-size: 1.3rem;
 }
 
 #contact {
 	text-shadow: 2px 2px 5px #333;
 	font-size: 1.2rem;
-	font-family: $font-family-sans-serif;
 	padding-bottom: 0;
 }
+
+.contact-info-city {
+	margin-top: -1rem;
+}
+
+// Responsive
+
+@media screen and (min-width: 768px) {
+	.menu-section,
+	.about-section {
+		background-size: cover;
+	}
+
+	#specials div,
+	.contact-info {
+		width: 50%;
+	}
+}
+
 
 // Don't hide logo on smaller screens
 @media screen and (min-width: 813px) {
@@ -178,10 +203,10 @@ header.masthead div div div p {
 
 }
 
+@media screen and (min-width: 1024px) {
 
-@media screen and (min-width: 768px) {
-	.menu-section,
-	.about-section {
-		background-size: cover;
+	#specials div,
+	.contact-info {
+		width: 40%;
 	}
 }

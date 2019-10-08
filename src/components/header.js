@@ -49,7 +49,6 @@ export default class Header extends React.Component {
                 <hr className="divider my-4"/>
               </div>
               <div className="col-lg-8 align-self-baseline">
-                
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#hours" onClick={Scroller.handleAnchorScroll}>View Hours!</a>
               </div>
             </div>
