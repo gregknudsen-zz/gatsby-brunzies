@@ -47,11 +47,6 @@ export default class IndexPage extends React.Component {
                 <h3 className="text-shadow mt-5">Friday-Saturday</h3>
                 <h3 className="text-right text-shadow">4pm - 2am</h3>
                 <hr className="divider my-4"/>
-                {/* <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p> */}
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
                   onClick={Scroller.handleAnchorScroll}>See Our Menu!</a>
               </div>
