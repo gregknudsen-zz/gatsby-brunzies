@@ -40,7 +40,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="text-white text-center about-hours">
-                <h2 className="text-shadow mt-0">Hours</h2>
+                <h1 className="text-shadow mt-0">Hours</h1>
                 <hr className="divider my-4"/>
                 <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
                 <h3 className="text-right text-shadow">4pm - Midnight</h3>
@@ -58,7 +58,7 @@ export default class IndexPage extends React.Component {
           <div className="text-center container-fluid p-0">
           <a className="mb-5 btn btn-primary btn-xl js-scroll-trigger" href="#specials"
                   onClick={Scroller.handleAnchorScroll}>See Daily Specials!</a>
-            <h2 className="text-center text-shadow text-white mt-0">Menu</h2>
+            <h1 className="text-center text-shadow text-white mt-0">Menu</h1>
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
@@ -85,11 +85,11 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section text-white" id="specials">
           <div className="container text-center specials">
-            <h2 className="text-center text-white text-shadow mt-0">Daily Drink Specials</h2>
+            <h1 className="text-center text-white text-shadow mt-0">Daily Drink Specials</h1>
             <hr className="divider my-4"/>
-            <h4 className="text-shadow text-left mt-3">Monday-Saturday: 9-11pm</h4>
-            <h4 className="text-shadow text-right mt-5">1/2 off all drafts!</h4>
-            <h4 className="text-shadow text-right">1/2 off all well drinks!</h4>
+            <h3 className="text-shadow text-left mt-3">Monday-Saturday: 9-11pm</h3>
+            <h3 className="text-shadow text-right mt-5">1/2 off all drafts!</h3>
+            <h3 className="text-shadow text-right">1/2 off all well drinks!</h3>
             <hr className="divider my-4"/>
               <a className="btn btn-primary btn-xl mt-4 js-scroll-trigger" href="#contact"
                     onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
@@ -185,7 +185,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center text-shadow">
               <div className="text-white text-center contact-info">
-                <h2 className="text-shadow mt-0">Let's Get In Touch!</h2>
+                <h1 className="text-shadow mt-0">Contact Us!</h1>
                 <hr className="divider my-4"/>
                 <p className="mt-5 text-left">470 Philadelphia St</p>
                 <p className="text-left contact-info-city">Indiana, PA 15701</p>
