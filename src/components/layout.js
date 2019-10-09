@@ -57,7 +57,8 @@ export default class Layout extends React.Component {
       <div
         className={className}
         ref={this.siteContainer}
-        id="page-top">
+        id="page-top"
+      >
         <Header hideLogo={this.state.scrolled} />
         <main>{this.props.children}</main>
         <footer className="bg-light py-4">
