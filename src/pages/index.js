@@ -209,13 +209,15 @@ export default class IndexPage extends React.Component {
                   <a href="https://twitter.com/KrisJBruns"><i className="fab fa-3x fa-twitter social-icons"></i></a>
                 </p>
                 <hr className="divider my-4"/>
-                <p className="giftcard mt-4 text-right text-white-75">
-                  Have a giftcard?<br />
-                  Check your balance
-                </p>
-                <p>
-                  <a href="#" onClick={this.popBalance}>HERE</a>
-                </p>
+                <div className="giftcard mt-4 text-right text-white-75">
+                  <p>
+                    Have a giftcard?<br />
+                    Check  your balance
+                  </p>
+                  <p>
+                    <a href="#" onClick={this.popBalance}>HERE</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
