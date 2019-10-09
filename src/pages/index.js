@@ -212,12 +212,9 @@ export default class IndexPage extends React.Component {
                 <p className="giftcard mt-4 text-right text-white-75">
                   Have a giftcard?<br />
                   Check your balance
-                  <p> 
-                    <a href="#" onClick={this.popBalance}>
-                      HERE
-                    </a>
-                  </p>
-
+                </p>
+                <p>
+                  <a href="#" onClick={this.popBalance}>HERE</a>
                 </p>
               </div>
             </div>
