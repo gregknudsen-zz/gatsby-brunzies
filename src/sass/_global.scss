@@ -77,6 +77,12 @@ hr.light {
 
 // Brunzies Specific Styles
 
+.masthead,
+.page-section,
+.btn {
+	box-shadow: 3px 3px 15px #222;
+}
+
 .navbar-brand .main-logo {
 	background-image: url('../images/brunzies-logo-white-bg-sm.jpg');
 	background-size: cover;
