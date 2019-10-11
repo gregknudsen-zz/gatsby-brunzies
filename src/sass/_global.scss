@@ -216,42 +216,28 @@ header.masthead div div div p {
 
 
 @media screen and (min-width: 812px) {
-	body:before {
-		content: "";
-		display: block;
-		position: fixed;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -10;
-		background: url(../images/brunzies-brick.jpg) no-repeat fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+		body:after {
+			content: "";
+			display: block;
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -10;
+			background: url(../images/brunzies-brick.jpg) no-repeat fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
 
 }
 
 
 // Don't hide logo on smaller screens
 @media screen and (min-width: 813px) {
-	body:after {
-		content: "";
-		display: block;
-		position: fixed;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -10;
-		background: url(../images/brunzies-brick.jpg) no-repeat fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+
 
 	.hidden {
 		display: none;
