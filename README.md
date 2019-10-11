@@ -1,17 +1,4 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby x Start Bootstrap Creative
-</h1>
-
-Gatsby implementation of [Start Bootstrap's Creative](https://startbootstrap.com/previews/creative/) template.
-
-[**Demo Website**](https://johnjkerr.github.io/gatsby-creative)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c624176-dc3f-4e24-901b-bb01815a1cca/deploy-status)](https://app.netlify.com/sites/brunzies-part-2/deploys)
 ## ✨ Features
 
 - [React Bootstrap](https://react-bootstrap.github.io)
