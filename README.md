@@ -1,3 +1,11 @@
+## New Brunzies website now deployed with Gatsby can be found [here](https://www.brunzies.com)!
+
+#### See details about the template used for this site below.
+
+There are still many things to do, as I have only scrached the surface of what Gatsby is capabale of, but I'm _very_ excited to continue exploring and learning!
+
+I used [Netlify](https://www.netlify.com) for this newest deployment instead of GH Pages. I love Netlify, and the fact that it offers free HTTPS certification is amazing!
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2c624176-dc3f-4e24-901b-bb01815a1cca/deploy-status)](https://app.netlify.com/sites/brunzies-part-2/deploys)
 ## ✨ Features
 
