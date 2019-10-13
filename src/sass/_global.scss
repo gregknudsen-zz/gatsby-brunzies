@@ -33,6 +33,10 @@ body:before {
 	text-shadow: 3px 3px 6px #222;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 // Custom horizontal rules
 hr.divider {
 	max-width: 3.25rem;
