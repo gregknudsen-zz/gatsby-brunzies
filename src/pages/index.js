@@ -25,9 +25,9 @@ export default class IndexPage extends React.Component {
     let width = 270;
     let height = 395; 
     let left, top, menubar, toolbar, status, resizable = 0;
-    var merchantID = 3137988; 
+    const merchantID = 3137988; 
     
-    window.open('https://wwws.givex.com/Merchant_pages/'+merchantID,
+    window.open(`https://wwws.givex.com/Merchant_pages/${merchantID}`,
           'balanceWindow', 
           width, 
           height,
