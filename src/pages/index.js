@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Map from "../components/map"
 import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
@@ -21,9 +22,9 @@ export default class IndexPage extends React.Component {
   }
 
   popBalance() {
-    // Replace with 315 if CAPTCHA is disabled. 
+    // Replace with 315 if CAPTCHA is disabled.
     let width = 270;
-    let height = 395; 
+    let height = 395;
     let left, top, menubar, toolbar, status, resizable = 0;
     const merchantID = 3137988; 
     
@@ -31,14 +32,14 @@ export default class IndexPage extends React.Component {
           'balanceWindow', 
           width, 
           height,
-          left, 
-          top, 
-          menubar, 
-          toolbar, 
+          left,
+          top,
+          menubar,
+          toolbar,
           status,
           resizable
-      ); 
-    } 
+      );
+    }
 
   handlePortfolioClick(index, e) {
     e.preventDefault();
@@ -197,6 +198,7 @@ export default class IndexPage extends React.Component {
                 <h3 className="text-left contact-info-city">Indiana, PA 15701</h3>
                 <h4 className="text-right mt-3"><em>(Right next to to Subs N' Suds!)</em></h4>
               </div>
+              <Map />
             </div>
             <div className="row justify-content-center">
               <div className="col-lg-4 text-white text-center mb-5 mb-lg-0">
