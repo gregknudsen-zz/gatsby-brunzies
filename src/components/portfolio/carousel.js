@@ -6,6 +6,7 @@ import Img from "gatsby-image"
 import "./carousel.scss"
 
 const PortfolioCarousel = ({ images, current }) => {
+  console.log('CAORUSEL ITEMS', images);
   const carouselItems = images.map((image, index) =>
     <Carousel.Item key={index}>
       <figure>
@@ -16,6 +17,7 @@ const PortfolioCarousel = ({ images, current }) => {
           </div>
         </figcaption> */}
       </figure>
+      <p className="text-white">Carousel Items: {index+1}</p>
     </Carousel.Item>
   );
 
