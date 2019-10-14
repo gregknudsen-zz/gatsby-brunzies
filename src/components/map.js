@@ -6,8 +6,8 @@ const Map = () => {
   console.log('USE MAPS', useMaps)
   return (
     <>
-      {useMaps.location.lat}<br />
-      {useMaps.location.lng}
+      {/* {useMaps.location.lat}<br /> */}
+      {/* {useMaps.location.lng} */}
     </>
 
   )
