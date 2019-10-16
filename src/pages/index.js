@@ -198,7 +198,7 @@ export default class IndexPage extends React.Component {
                 <h3 className="text-left contact-info-city">Indiana, PA 15701</h3>
               </div>
               <div className="text-white">
-                <h4 className="text-right"><Map /></h4>
+                {/* <h4 className="text-right"><Map /></h4> */}
                 <h4 className="text-left mt-3"><em>(Right next to to Subs N' Suds!)</em></h4>
               </div>
             </div>
