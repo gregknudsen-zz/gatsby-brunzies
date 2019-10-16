@@ -21,6 +21,7 @@
     "gatsby-transformer-pdf": "^1.1.12",
     "gatsby-transformer-sharp": "^2.2.5",
     "global": "^4.4.0",
+    "google-map-react": "^1.1.5",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
