@@ -26,11 +26,11 @@ export default class IndexPage extends React.Component {
     let width = 270;
     let height = 395;
     let left, top, menubar, toolbar, status, resizable = 0;
-    var merchantID = 3137988;
-
-    window.open('https://wwws.givex.com/Merchant_pages/'+merchantID,
-          'balanceWindow',
-          width,
+    const merchantID = 3137988; 
+    
+    window.open(`https://wwws.givex.com/Merchant_pages/${merchantID}`,
+          'balanceWindow', 
+          width, 
           height,
           left,
           top,
@@ -206,7 +206,6 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 text-white text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3 mt-5"></i>
                 <div className="text-white">+1 (724) 349-2770</div>
-                <hr className="divider my-4"/>
                 <p className="mt-5 row align-items-center justify-content-center social-links">
                   Follow us on <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
                   or
