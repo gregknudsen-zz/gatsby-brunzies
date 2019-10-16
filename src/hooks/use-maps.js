@@ -1,4 +1,4 @@
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
 // const UseMaps = () => {
 //   const data = useStaticQuery(graphql`
@@ -29,4 +29,4 @@ import { useStaticQuery, graphql } from "gatsby"
 
 // }
 
-export default UseMaps;
+// export default UseMaps;
