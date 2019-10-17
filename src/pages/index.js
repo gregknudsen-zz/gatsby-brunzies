@@ -192,13 +192,13 @@ export default class IndexPage extends React.Component {
           <div className="container">
               <h1 className="text-shadow text-white text-center mt-0">Contact Us!</h1>
               <hr className="divider my-4"/>
-            <div className="row align-items-baseline justify-content-center text-shadow">
+            <div className="row align-items-center justify-content-center text-shadow">
               <div className="text-white text-center contact-info">
-                <h3 className="mt-5 text-left">470 Philadelphia St</h3>
-                <h3 className="text-left contact-info-city">Indiana, PA 15701</h3>
+                <h2 className="mt-5 text-left">470 Philadelphia St</h2>
+                <h2 className="text-left contact-info-city">Indiana, PA 15701</h2>
               </div>
               <div className="text-white">
-                {/* <h4 className="text-right"><Map /></h4> */}
+                <Map />
                 <h4 className="text-left mt-3"><em>(Right next to to Subs N' Suds!)</em></h4>
               </div>
             </div>
