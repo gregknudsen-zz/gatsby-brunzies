@@ -9,15 +9,15 @@ const Map = () => {
       lat: useMaps.location.lat,
       lng: useMaps.location.lng
     },
-    zoom: 16
+    zoom: 16.8
   };
   
   console.log('USE MAPS', useMaps)
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
+  const AnyReactComponent = () => <div><i className="fas fa-map-pin fa-2x"></i></div>;
 
   return (
     <>
-    <div style={{ height: '22rem', width: '100%' }}>
+    <div className="map-container" style={{ height: '22rem', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: process.env.GATSBY_YOUR_GOOGLE_MAPS_GEOCODING_API_KEY }}
           defaultCenter={defaultProps.center}
@@ -26,7 +26,7 @@ const Map = () => {
           <AnyReactComponent
             lat={useMaps.location.lat}
             lng={useMaps.location.lng}
-            text="My Marker"
+            
           />
         </GoogleMapReact>
       </div>
