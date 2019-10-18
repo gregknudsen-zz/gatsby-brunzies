@@ -9,11 +9,11 @@ const Map = () => {
       lat: useMaps.location.lat,
       lng: useMaps.location.lng
     },
-    zoom: 16.8
+    zoom: 15
   };
   
   console.log('USE MAPS', useMaps)
-  const AnyReactComponent = () => <div><i className="fas fa-map-pin fa-2x"></i></div>;
+  // const AnyReactComponent = () => <div><i className="fas fa-map-pin fa-2x"></i></div>;
 
   return (
     <>
@@ -23,11 +23,11 @@ const Map = () => {
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
         >
-          <AnyReactComponent
+          {/* <AnyReactComponent
             lat={useMaps.location.lat}
             lng={useMaps.location.lng}
             
-          />
+          /> */}
         </GoogleMapReact>
       </div>
       {/* {useMaps.location.lat}<br />
