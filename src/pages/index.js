@@ -196,7 +196,7 @@ export default class IndexPage extends React.Component {
               <div className="text-white text-center contact-info">
                 <i className="fas fa-phone fa-3x mb-4"></i>
                 <h3 className="text-white mb-4">+1 (724) 349-2770</h3>
-                <hr className="secondary-divider my-4"/>
+                <hr className="divider my-4"/>
                 <h2 className="mt-5">470 Philadelphia St</h2>
                 <h2 className="contact-info-city">Indiana, PA 15701</h2>
               </div>
