@@ -46,6 +46,12 @@ hr.divider {
 	border-color: $primary;
 }
 
+hr.secondary-divider {
+	max-width: 3.25rem;
+	border-width: 0.2rem;
+	border-color: #ddd
+}
+
 hr.light {
 	border-color: $white;
 }
@@ -189,10 +195,6 @@ header.masthead div div div p {
 	text-shadow: 2px 2px 5px #333;
 	font-size: 1.2rem;
 	padding-bottom: 4rem;
-}
-
-.contact-info-city {
-	margin-top: 1.5rem;
 }
 
 em {
