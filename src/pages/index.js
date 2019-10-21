@@ -202,7 +202,7 @@ export default class IndexPage extends React.Component {
               <div className="text-white">
                 <Map />
                 <h4 className="text-left mt-3">
-                <em>On the corner of Philly &amp; S 5th St <br/>
+                <em>On the corner of Philly &amp; 5th St <br/>
                 Right next to to Subs N' Suds!</em></h4>
               </div>
             </div>
