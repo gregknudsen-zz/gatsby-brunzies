@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
@@ -58,8 +62,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-googlemaps-geocoding',
       options: {
-        key: 'YOUR_GOOGLE_MAPS_GEOCODING_API_KEY',
-        address: 'ADDRESS_YOU_ARE_GEOCODING'
+        key: process.env.GATSBY_YOUR_GOOGLE_MAPS_GEOCODING_API_KEY,
+        address: process.env.GATSBY_ADDRESS_YOU_ARE_GEOCODING
       },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Map from "../components/map"
 import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
@@ -21,9 +22,9 @@ export default class IndexPage extends React.Component {
   }
 
   popBalance() {
-    // Replace with 315 if CAPTCHA is disabled. 
+    // Replace with 315 if CAPTCHA is disabled.
     let width = 270;
-    let height = 395; 
+    let height = 395;
     let left, top, menubar, toolbar, status, resizable = 0;
     const merchantID = 3137988; 
     
@@ -31,14 +32,14 @@ export default class IndexPage extends React.Component {
           'balanceWindow', 
           width, 
           height,
-          left, 
-          top, 
-          menubar, 
-          toolbar, 
+          left,
+          top,
+          menubar,
+          toolbar,
           status,
           resizable
-      ); 
-    } 
+      );
+    }
 
   handlePortfolioClick(index, e) {
     e.preventDefault();
@@ -189,19 +190,24 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="contact">
           <div className="container">
-            <div className="row justify-content-center text-shadow">
+              <h1 className="text-shadow text-white text-center mt-0">Contact Us!</h1>
+              <hr className="divider my-4"/>
+            <div className="row align-items-center justify-content-center text-shadow">
               <div className="text-white text-center contact-info">
-                <h1 className="text-shadow mt-0">Contact Us!</h1>
-                <hr className="divider my-4"/>
-                <h3 className="mt-5 text-left">470 Philadelphia St</h3>
-                <h3 className="text-left contact-info-city">Indiana, PA 15701</h3>
-                <h4 className="text-right mt-3"><em>(Right next to to Subs N' Suds!)</em></h4>
+                <h2 className="mt-5">470 Philadelphia St</h2>
+                <h2 className="contact-info-city">Indiana, PA 15701</h2>
+                <i className="fas fa-phone fa-3x mb-3 mt-5"></i>
+                <div className="text-white mb-4">+1 (724) 349-2770</div>
+              </div>
+              <div className="text-white">
+                <Map />
+                <h4 className="text-left mt-3">
+                <em>On the corner of Philly &amp; 5th St <br/>
+                Right next to to Subs N' Suds!</em></h4>
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-lg-4 text-white text-center mb-5 mb-lg-0">
-                <i className="fas fa-phone fa-3x mb-3 mt-5"></i>
-                <div className="text-white">+1 (724) 349-2770</div>
                 <p className="mt-5 row align-items-center justify-content-center social-links">
                   Follow us on <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
                   or

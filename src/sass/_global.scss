@@ -85,7 +85,8 @@ hr.light {
 
 .masthead,
 .page-section,
-.btn {
+.btn,
+.map-container {
 	box-shadow: 3px 3px 15px #222;
 	outline: none;
 }
@@ -191,11 +192,12 @@ header.masthead div div div p {
 }
 
 .contact-info-city {
-	margin-top: -0.5rem;
+	margin-top: 1.5rem;
 }
 
-.giftcard {
-
+em {
+	line-height: 1.4;
+	text-shadow: 0px 12px 9px rgba(0,0,0,0.75);
 }
 
 .signature {
@@ -217,6 +219,10 @@ header.masthead div div div p {
 	#specials div,
 	.contact-info {
 		width: 50%;
+	}
+
+	#contact h2 {
+		font-size: 2rem;
 	}
 }
 
@@ -256,5 +262,9 @@ header.masthead div div div p {
 	#specials div,
 	.contact-info {
 		width: 45%;
+	}
+
+	#contact h2 {
+		font-size: 2.5rem;
 	}
 }
