@@ -17,7 +17,7 @@ const PortfolioCarousel = ({ images, current }) => {
           </div>
         </figcaption> */}
       </figure>
-      <p className="text-white">Carousel Items: {index+1}</p>
+      {/* <p className="text-white">Carousel Items: {index+1}</p> */}
     </Carousel.Item>
   );
 

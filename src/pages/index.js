@@ -69,7 +69,7 @@ export default class IndexPage extends React.Component {
                 <h3 className="text-right text-shadow">4pm - 2am</h3>
                 <hr className="divider my-4"/>
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
-                  onClick={Scroller.handleAnchorScroll}>See Our Menu!</a>
+                  onClick={Scroller.handleAnchorScroll}>See Our Menus!</a>
               </div>
             </div>
           </div>
@@ -79,11 +79,11 @@ export default class IndexPage extends React.Component {
           <div className="text-center container-fluid p-0">
           <a className="mb-5 btn btn-primary btn-xl js-scroll-trigger" href="#specials"
                   onClick={Scroller.handleAnchorScroll}>See Daily Specials!</a>
-            <h1 className="text-center text-shadow text-white mt-0">Menu</h1>
+            <h1 className="text-center text-shadow text-white mt-0">Menus</h1>
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="menus/menu-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
+                <a className="portfolio-box" href="menus/brunzies-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
                   <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-name">
@@ -92,8 +92,29 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="menus/menu-page-2.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>
+                <a className="portfolio-box" href="menus/brunzies-page-2.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>
                   <Img fluid={this.props.data.images.edges[7].node.childImageSharp.fluid}/>
+                  <div className="portfolio-box-caption p-3">
+                    <div className="project-name">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              </div>
+              <hr className="divider my-4"/>
+              <div className="row justify-content-center no-gutters">
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="menus/subs-menu-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>
+                  <Img fluid={this.props.data.images.edges[8].node.childImageSharp.fluid}/>
+                  <div className="portfolio-box-caption p-3">
+                    <div className="project-name">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="menus/subs-menu-page-2.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>
+                  <Img fluid={this.props.data.images.edges[9].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-name">
                     </div>
