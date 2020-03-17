@@ -124,6 +124,12 @@ header.masthead div div div p {
 	font-size: 2rem;
 }
 
+.background-text {
+	border: white 1px solid;
+	padding: 7%;
+	font-family: $font-family-sans-serif;
+}
+
 .about-section {
 	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
 	url('../images/wide-brunzies.jpg') no-repeat;

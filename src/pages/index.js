@@ -62,12 +62,14 @@ export default class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="text-white text-center about-hours">
                 <h1 className="text-shadow mt-0">Hours</h1>
-                <hr className="divider my-4"/>
-                <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
-                <h3 className="text-right text-shadow">4pm - Midnight</h3>
-                <h3 className="text-shadow mt-5">Friday-Saturday</h3>
-                <h3 className="text-right text-shadow">4pm - 2am</h3>
-                <hr className="divider my-4"/>
+                <div className="background-text">
+                  {/* <hr className="divider my-4"/> */}
+                  <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
+                  <h3 className="text-right text-shadow">4pm - Midnight</h3>
+                  <h3 className="text-shadow mt-5">Friday-Saturday</h3>
+                  <h3 className="text-right text-shadow">4pm - 2am</h3>
+                  {/* <hr className="divider my-4"/> */}
+                </div>
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
                   onClick={Scroller.handleAnchorScroll}>See Our Menus!</a>
               </div>
