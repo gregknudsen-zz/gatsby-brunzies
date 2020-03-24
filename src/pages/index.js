@@ -68,7 +68,7 @@ export default class IndexPage extends React.Component {
                     Although Brunzies will be closed, we will be open for takeout food &#38; beer 
                     from <div className="text-center hours-text my-4">11am-9pm</div> 
                     Please call ahead to place your order<br /> <a href="tel:724-349-2770">(724) 349-2770</a><br /> 
-                    We will keep everyone posted on any changes. Stay safe, friends!
+                    We will keep everyone posted on any changes. <br/><br/>Stay safe, friends!
                   </p>
                   {/* <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
                   <h3 className="text-right text-shadow">4pm - Midnight</h3>
