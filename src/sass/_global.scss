@@ -124,6 +124,27 @@ header.masthead div div div p {
 	font-size: 2rem;
 }
 
+.hours-emphasis:before,
+.hours-emphasis:after {
+	content: '*';
+	margin: 0 4px;
+}
+
+.about-hours {
+	font-family: $font-family-sans-serif;
+	margin: 0 12px;
+}
+
+.about-hours a {
+	// color: blue;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.hours-text {
+	font-size: 2em;
+}
+
 .background-text {
 	border: white 1px solid;
 	padding: 7%;
@@ -209,7 +230,7 @@ header.masthead div div div p {
 
 em {
 	line-height: 1.4;
-	text-shadow: 0px 12px 9px rgba(0,0,0,0.75);
+	// text-shadow: 0px 12px 9px rgba(0,0,0,0.75);
 }
 
 .signature {
@@ -225,7 +246,7 @@ em {
 	}
 
 	.about-hours {
-		width: 40%;
+		width: 55%;
 	}
 
 	#specials div,
@@ -278,5 +299,12 @@ em {
 
 	#contact h2 {
 		font-size: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.about-hours {
+		font-size: 1.3em;
+		width: 50%;
 	}
 }
