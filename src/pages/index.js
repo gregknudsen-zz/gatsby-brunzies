@@ -61,13 +61,20 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="text-white text-center about-hours">
-                <h1 className="text-shadow mt-0">Hours</h1>
-                <hr className="divider my-4"/>
-                <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
-                <h3 className="text-right text-shadow">4pm - Midnight</h3>
-                <h3 className="text-shadow mt-5">Friday-Saturday</h3>
-                <h3 className="text-right text-shadow">4pm - 2am</h3>
-                <hr className="divider my-4"/>
+                <h1 className="text-shadow mt-0 hours-emphasis">Hours</h1>
+                  <hr className="divider my-4"/>
+                  <h5 className="text-left my-4"><em>From the Brunzies <a className="text-shadow" href="https://www.facebook.com/brunzies.bar?fref=ts">facebook</a> page</em></h5>
+                  <p className="text-right text-shadow">
+                    Although Brunzies will be closed, we will be open for takeout food &#38; beer 
+                    from <div className="text-center hours-text my-4">11am-9pm</div> 
+                    Please call ahead to place your order<br /> <a href="tel:724-349-2770">(724) 349-2770</a><br /> 
+                    We will keep everyone posted on any changes. <br/><br/>Stay safe, friends!
+                  </p>
+                  {/* <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
+                  <h3 className="text-right text-shadow">4pm - Midnight</h3>
+                  <h3 className="text-shadow mt-5">Friday-Saturday</h3>
+                  <h3 className="text-right text-shadow">4pm - 2am</h3> */}
+                  <hr className="divider my-4"/>
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
                   onClick={Scroller.handleAnchorScroll}>See Our Menus!</a>
               </div>
@@ -216,7 +223,7 @@ export default class IndexPage extends React.Component {
             <div className="row align-items-center justify-content-center text-shadow">
               <div className="text-white text-center contact-info">
                 <i className="fas fa-phone fa-3x mb-4"></i>
-                <h3 className="text-white mb-4">+1 (724) 349-2770</h3>
+                <h3 className="text-white mb-4"><a href="tel:724-349-2770"> +1 (724) 349-2770</a></h3>
                 <hr className="divider my-4"/>
                 <h2 className="mt-5">470 Philadelphia St</h2>
                 <h2 className="contact-info-city">Indiana, PA 15701</h2>

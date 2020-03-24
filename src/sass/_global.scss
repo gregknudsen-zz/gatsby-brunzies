@@ -124,6 +124,33 @@ header.masthead div div div p {
 	font-size: 2rem;
 }
 
+.hours-emphasis:before,
+.hours-emphasis:after {
+	content: '*';
+	margin: 0 4px;
+}
+
+.about-hours {
+	font-family: $font-family-sans-serif;
+	margin: 0 12px;
+}
+
+.about-hours a {
+	// color: blue;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.hours-text {
+	font-size: 2em;
+}
+
+.background-text {
+	border: white 1px solid;
+	padding: 7%;
+	font-family: $font-family-sans-serif;
+}
+
 .about-section {
 	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
 	url('../images/wide-brunzies.jpg') no-repeat;
@@ -203,7 +230,7 @@ header.masthead div div div p {
 
 em {
 	line-height: 1.4;
-	text-shadow: 0px 12px 9px rgba(0,0,0,0.75);
+	// text-shadow: 0px 12px 9px rgba(0,0,0,0.75);
 }
 
 .signature {
@@ -219,7 +246,7 @@ em {
 	}
 
 	.about-hours {
-		width: 40%;
+		width: 55%;
 	}
 
 	#specials div,
@@ -236,21 +263,8 @@ em {
 @media screen and (min-width: 800px) {
 
 	body:after {
-		content: "";
-		display: block;
-		position: fixed;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -10;
 		background: url(../images/brunzies-brick.jpg) no-repeat fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
 	}
-
 }
 
 
@@ -272,5 +286,12 @@ em {
 
 	#contact h2 {
 		font-size: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.about-hours {
+		font-size: 1.3em;
+		width: 50%;
 	}
 }
