@@ -25,6 +25,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     {
+<<<<<<< HEAD
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: process.env.TAG_MANAGER,
@@ -68,7 +69,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "example.com",
+        cookieDomain: "example.com"
       },
     },
     `gatsby-plugin-sharp`,
