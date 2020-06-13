@@ -64,7 +64,7 @@ export default class Layout extends React.Component {
         <footer className="bg-light py-4">
           <div className="container">
             <div className="text-center">
-              Copyright &copy; 2019 - <span className="signature">DevArtist</span>
+              Copyright &copy; 2020 - <span className="signature">DevArtist</span>
             </div>
           </div>
         </footer>

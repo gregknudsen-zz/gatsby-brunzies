@@ -63,13 +63,20 @@ export default class IndexPage extends React.Component {
               <div className="text-white text-center about-hours">
                 <h1 className="text-shadow mt-0 hours-emphasis">Hours</h1>
                   <hr className="divider my-4"/>
-                  <h5 className="text-left my-4"><em>From the Brunzies <a className="text-shadow" href="https://www.facebook.com/brunzies.bar?fref=ts">facebook</a> page</em></h5>
-                  <p className="text-right text-shadow">
-                    Although Brunzies will be closed, we will be open for takeout food &#38; beer 
-                    from <div className="text-center hours-text my-4">11am-9pm</div> 
-                    Please call ahead to place your order<br /> <a href="tel:724-349-2770">(724) 349-2770</a><br /> 
-                    We will keep everyone posted on any changes. <br/><br/>Stay safe, friends!
-                  </p>
+                  {/* <h5 className="text-left my-4"><em>From the Brunzies <a className="text-shadow" href="https://www.facebook.com/brunzies.bar?fref=ts">facebook</a> page</em></h5> */}
+                  <div className="text-left text-shadow">
+                   <h3 className="text-center"> Indiana County has gone <br/><p className="green my-3">GREEN!</p></h3><br/>
+                    This means we have opened our restaraunts with limited indoor capacity along with new, spacious outdoor seating! <br/><br/>
+                    <hr/>
+                    <p className="current-hours">Current hours for Brunzies are</p>
+                    <p className="text-right hours-text my-3">4pm-11pm</p>
+                    <hr/>
+                    <p className="current-hours">Current hours for SUBS 'n SUDS are</p>
+                    <p className="text-right hours-text my-3">11am-11pm</p>
+                    <hr/>
+                    <p>Takeout is still available, of course, so please call ahead to place your order!<br /> <a href="tel:724-349-2770">(724) 349-2770</a><br /></p>
+                    We will continue to keep everyone posted on any changes. <br/><br/>Stay safe, friends!
+                  </div>
                   {/* <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
                   <h3 className="text-right text-shadow">4pm - Midnight</h3>
                   <h3 className="text-shadow mt-5">Friday-Saturday</h3>
