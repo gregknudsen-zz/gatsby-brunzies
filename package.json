@@ -13,11 +13,8 @@
     "gatsby": "^2.13.51",
     "gatsby-cli": "^2.8.1",
     "gatsby-image": "^2.2.8",
-    "gatsby-plugin-google-analytics": "^2.2.4",
-<<<<<<< HEAD
+    "gatsby-plugin-google-analytics": "^2.3.13",
     "gatsby-plugin-google-tagmanager": "^2.2.3",
-=======
->>>>>>> 4d74e357a53f500623a023e997ae9f08d911143e
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-react-helmet": "^3.1.3",

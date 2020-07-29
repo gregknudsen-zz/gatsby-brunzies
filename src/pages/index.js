@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -68,8 +69,8 @@ export default class IndexPage extends React.Component {
                 <h3 className="text-shadow mt-5">Friday-Saturday</h3>
                 <h3 className="text-right text-shadow">4pm - 2am</h3>
                 <hr className="divider my-4"/>
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
-                  onClick={Scroller.handleAnchorScroll}>See Our Menus!</a>
+                <OutboundLink className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
+                  onClick={Scroller.handleAnchorScroll}>See Our Menus!</OutboundLink>
               </div>
             </div>
           </div>
@@ -83,13 +84,13 @@ export default class IndexPage extends React.Component {
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="menus/brunzies-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
+                <OutboundLink className="portfolio-box" href="menus/brunzies-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
                   <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-name">
                     </div>
                   </div>
-                </a>
+                </OutboundLink>
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="menus/brunzies-page-2.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>

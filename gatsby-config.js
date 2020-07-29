@@ -25,7 +25,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     {
-<<<<<<< HEAD
+
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: process.env.TAG_MANAGER,
@@ -85,7 +85,14 @@ module.exports = {
         icon: `src/images/brunzies-icon-2.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        includePaths: [
+          require('path').resolve(__dirname, 'node_modules')
+        ]
+      }
+    },
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
