@@ -23,16 +23,16 @@ export default class Header extends React.Component {
                 <Scrollspy className="navbar-nav"
                           items={["hours", "menu", "photo-header", "contact"]}
                           currentClassName="active" rootEl={"#mainNav"} offset={-75}>
-                  <li className="nav-item">
+                  <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#hours" onClick={Scroller.handleAnchorScroll}>Hours</Nav.Link>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#menu" onClick={Scroller.handleAnchorScroll}>Menus</Nav.Link>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#photo-header" onClick={Scroller.handleAnchorScroll}>Photos</Nav.Link>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>
                   </li>
                 </Scrollspy>

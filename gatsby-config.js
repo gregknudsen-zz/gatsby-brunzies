@@ -46,7 +46,11 @@ module.exports = {
             'Merriweather:400,300,300italic,400italic,700,700italic', 
             'Merriweather+Sans:400,700',
             'Pragati+Narrow:400,700',
-            'Kaushan Script'
+            'Kaushan Script',
+            'Fontdiner+Swanky',
+            'Special+Elite',
+            'Itim',
+            'Walter Turncoat'
           ]
         }
       }

@@ -39,6 +39,21 @@ a:hover {
 	text-decoration: none;
 }
 
+// Font Additions
+
+.special-elite {
+	font-family: $special-elite-font;
+}
+
+.swanky {
+	font-family: $swanky-font;
+}
+
+p {
+	font-family: "Walter Turncoat";
+	font-size: 1.5em;
+}
+
 // Custom horizontal rules
 hr.divider {
 	max-width: 3.25rem;
@@ -58,12 +73,12 @@ hr.light {
 
 // Button restyling
 .btn {
-	font-family: $font-family-sans-serif;
+	font-family: $special-elite-font, $font-family-sans-serif;
 }
 
 .btn-xl {
 	padding: 1.25rem 2.25rem;
-	font-size: 0.85rem;
+	font-size: 1rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	border: none;
@@ -101,6 +116,10 @@ hr {
 	outline: none;
 }
 
+.btn {
+	text-shadow: 2px 2px 4px #222;
+}
+
 .navbar-brand .main-logo {
 	background-image: url('../images/brunzies-logo-white-bg-sm.jpg');
 	background-size: cover;
@@ -108,6 +127,10 @@ hr {
 	height: 28px;
 	cursor: pointer;
 	border-radius: 5px;
+}
+
+.nav-link {
+	font-family: $special-elite-font;
 }
 
 
@@ -133,12 +156,21 @@ header.masthead div div div p {
 	color: #15e815;
 }
 
-.hours-emphasis:before,
-.hours-emphasis:after {
-	content: '*';
-	margin: 0 4px;
+// .hours-emphasis:before,
+// .hours-emphasis:after {
+// 	content: '*';
+// 	margin: 0 4px;
+// }
+.covid-container {
+	border: 2px solid #222;
+	padding: 1em;
+	background: rgba(1,1,1,0.3);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
-
 .about-hours {
 	font-family: $font-family-sans-serif;
 	margin: 0 12px;
@@ -152,6 +184,7 @@ header.masthead div div div p {
 
 .current-hours {
 	font-size: 1.2em;
+	// font-family: 'Special Elite';
 }
 
 .hours-text {
@@ -166,7 +199,7 @@ header.masthead div div div p {
 
 .about-section {
 	background: linear-gradient(to bottom, #{fade-out($brown, .4)} 0%, #{fade-out($brown, .4)} 100%),
-	url('../images/wide-brunzies.jpg') no-repeat;
+	url('../images/wide-brunzies.jpg') repeat;
 }
 
 .menu-section {
