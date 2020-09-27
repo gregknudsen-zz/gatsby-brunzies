@@ -66,17 +66,18 @@ export default class IndexPage extends React.Component {
                   {/* <h5 className="text-left my-4"><em>From the Brunzies <a className="text-shadow" href="https://www.facebook.com/brunzies.bar?fref=ts">facebook</a> page</em></h5> */}
                   <div className="covid-container">
                     <div className="text-left text-shadow">
-                    <h3 className="text-center"> Indiana County has gone <br/><p className="green my-3 swanky">GREEN!</p></h3><br/>
-                      <p>This means we have opened our restaraunts with limited indoor capacity along with new, spacious outdoor seating!</p> <br/>
+                    {/* <h3 className="text-center"> Indiana County has gone <br/><p className="green my-3 swanky">GREEN!</p></h3><br/> */}
+                      <p className="text-center">Limited indoor capacity along with new, spacious outdoor seating!</p> <br/>
                       <hr/>
-                      <p className="current-hours">Current hours for Brunzies</p>
+                      <p className="about-hours">Hours for Brunzies</p>
                       <p className="text-right hours-text my-3">4pm-11pm</p>
                       <hr/>
-                      <p className="current-hours">Current hours for SUBS 'n SUDS</p>
+                      <p className="about-hours">Hours for SUBS 'n SUDS</p>
                       <p className="text-right hours-text my-3">11am-11pm</p>
                       <hr/>
-                      <p>Takeout is still available, of course, so please call ahead to place your order!<br /> <a href="tel:724-349-2770">(724) 349-2770</a><br />
-                      We will continue to keep everyone posted on any changes. <br/><br/>Stay safe, friends!</p>
+                      <p>Takeout available! <br/> Please call ahead to place your order!</p> 
+                      <p className="text-center"><a href="tel:724-349-2770">(724) 349-2770</a></p>
+                      <p  className="text-right">We will continue to keep everyone posted on any changes. <br/><br/>Stay safe, friends!</p>
                     </div>
                   </div>
                   {/* <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
@@ -95,7 +96,7 @@ export default class IndexPage extends React.Component {
           <div className="text-center container-fluid p-0">
           <a className="mb-5 btn btn-primary btn-xl js-scroll-trigger" href="#specials"
                   onClick={Scroller.handleAnchorScroll}>See Daily Specials!</a>
-            <h1 className="text-center text-shadow text-white mt-0">Menus</h1>
+            <h1 className="text-center text-shadow text-white mt-0 special-elite">Menus</h1>
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
@@ -145,7 +146,7 @@ export default class IndexPage extends React.Component {
           <div className="container text-center specials">
             <h1 className="text-center text-white text-shadow mt-0">Daily Drink Specials</h1>
             <hr className="divider my-4"/>
-            <h3 className="text-shadow text-left mt-3">Monday-Saturday: 9-11pm</h3>
+            <h3 className="text-shadow text-left mt-3">Monday-Saturday: <br/>9-11pm</h3>
             <h3 className="text-shadow text-right mt-5">1/2 off all drafts!</h3>
             <h3 className="text-shadow text-right">1/2 off all well drinks!</h3>
             <hr className="divider my-4"/>
@@ -227,7 +228,7 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="contact">
           <div className="container">
-              <h1 className="text-shadow text-white text-center mt-0">Contact Us!</h1>
+              <h1 className="text-shadow text-white text-center mt-0 special-elite">Contact Us!</h1>
               <hr className="divider my-4"/>
             <div className="row align-items-center justify-content-center text-shadow">
               <div className="text-white text-center contact-info">
@@ -239,13 +240,13 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="text-white">
                 <Map />
-                <h4 className="text-left mt-3">
+                <h4 className="text-center mt-3">
                 <em>On the corner of Philly &amp; 5th St <br/>
                 Right next to to Subs N' Suds!</em></h4>
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-lg-4 text-white text-center mb-5 mb-lg-0">
+              <div className="col-md-8 col-sm-12 col-lg-6 text-white text-center mb-5 mb-lg-0">
                 <p className="mt-5 row align-items-center justify-content-center social-links">
                   Follow us on <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
                   or
@@ -255,10 +256,8 @@ export default class IndexPage extends React.Component {
                 <div className="giftcard mt-4 text-right text-white-75">
                   <p>
                     Have a giftcard?<br />
-                    Check  your balance
-                  </p>
-                  <p>
-                    <a href="#" onClick={this.popBalance}>HERE</a>
+                    Check  your balance <a href="#" onClick={this.popBalance}>HERE</a>
+
                   </p>
                 </div>
               </div>

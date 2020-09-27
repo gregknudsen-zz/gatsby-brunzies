@@ -50,7 +50,7 @@ a:hover {
 }
 
 p {
-	font-family: "Walter Turncoat";
+	font-family: $special-elite-font;
 	font-size: 1.5em;
 }
 
@@ -164,7 +164,7 @@ header.masthead div div div p {
 .covid-container {
 	border: 2px solid #222;
 	padding: 1em;
-	background: rgba(1,1,1,0.3);
+	background: rgba(1,1,1,0.5);
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -172,7 +172,7 @@ header.masthead div div div p {
 	-o-border-radius: 10px;
 }
 .about-hours {
-	font-family: $font-family-sans-serif;
+	font-family: $special-elite-font;
 	margin: 0 12px;
 }
 
@@ -240,8 +240,13 @@ header.masthead div div div p {
 }
 
 .photo-header {
+	font-family: $special-elite-font;
 	margin-bottom: -85px;
 	margin-top: 130px;
+}
+
+.social-links {
+	font-size: 1.2rem;
 }
 
 .social-icons {
@@ -253,16 +258,27 @@ header.masthead div div div p {
 	font-size: 1.2rem;
 }
 
+.specials h1,
+.specials h3 {
+	font-family: $special-elite-font;
+}
+
 #specials,
 #contact {
 	background-color: rgba(52, 58, 64, 0.7);
 	font-family: $font-family-sans-serif;
 }
 
-
-
 #specials div p {
 	font-size: 1.3rem;
+}
+#contact {
+	font-family: $special-elite-font;
+}
+
+.contact-info h3,
+.contact-info h2 {
+	font-family: $special-elite-font;
 }
 
 .contact-info h3 {
@@ -277,6 +293,8 @@ header.masthead div div div p {
 
 em {
 	line-height: 1.4;
+	font-family: $special-elite-font;
+	font-size: 1.2rem;
 	// text-shadow: 0px 12px 9px rgba(0,0,0,0.75);
 }
 
@@ -303,6 +321,10 @@ em {
 
 	#contact h2 {
 		font-size: 2rem;
+	}
+
+	.social-links {
+		font-size: 1.5rem;
 	}
 }
 
@@ -344,5 +366,6 @@ em {
 	.about-hours {
 		font-size: 1.3em;
 		width: 50%;
+		
 	}
 }
