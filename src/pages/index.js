@@ -142,17 +142,17 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section text-white" id="specials">
-          <div className="container text-center specials">
+        <section className="page-section text-white text-center" id="specials">
+          <div className="container text-center specials covid-container">
             <h1 className="text-center text-white text-shadow mt-0">Daily Drink Specials</h1>
             <hr className="divider my-4"/>
             <h3 className="text-shadow text-left mt-3">Monday-Saturday: <br/>9-11pm</h3>
             <h3 className="text-shadow text-right mt-5">1/2 off all drafts!</h3>
             <h3 className="text-shadow text-right">1/2 off all well drinks!</h3>
             <hr className="divider my-4"/>
+          </div>
               <a className="btn btn-primary btn-xl mt-4 js-scroll-trigger" href="#contact"
                     onClick={Scroller.handleAnchorScroll}>Contact Us!</a>
-          </div>
           <h1 className="text-center text-white text-shadow photo-header" id="photo-header">Photo Gallery</h1>
         </section>
 
@@ -230,7 +230,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
               <h1 className="text-shadow text-white text-center mt-0 special-elite">Contact Us!</h1>
               <hr className="divider my-4"/>
-            <div className="row align-items-center justify-content-center text-shadow">
+            <div className="row align-items-center justify-content-center text-shadow covid-container">
               <div className="text-white text-center contact-info">
                 <i className="fas fa-phone fa-3x mb-4"></i>
                 <h3 className="text-white mb-4"><a href="tel:724-349-2770"> +1 (724) 349-2770</a></h3>
