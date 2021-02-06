@@ -62,12 +62,12 @@ export default class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="text-white text-center about-hours">
                 <h1 className="text-shadow mt-0 hours-emphasis special-elite">Hours</h1>
-                  <hr className="divider my-4"/>
+                  {/* <hr className="divider my-4"/> */}
                   {/* <h5 className="text-left my-4"><em>From the Brunzies <a className="text-shadow" href="https://www.facebook.com/brunzies.bar?fref=ts">facebook</a> page</em></h5> */}
                   <div className="covid-container">
                     <div className="text-left text-shadow">
                     {/* <h3 className="text-center"> Indiana County has gone <br/><p className="green my-3 swanky">GREEN!</p></h3><br/> */}
-                      <p className="text-center">Limited indoor capacity along with new, spacious outdoor seating!</p> <br/>
+                      {/* <p className="text-center">Limited indoor capacity along with new, spacious outdoor seating!</p> <br/> */}
                       <hr/>
                       <p className="about-hours">Hours for Brunzies</p>
                       <p className="text-right hours-text my-3">4pm-11pm</p>
@@ -247,12 +247,15 @@ export default class IndexPage extends React.Component {
             </div>
             <div className="row justify-content-center">
               <div className="col-md-8 col-sm-12 col-lg-6 text-white text-center mb-5 mb-lg-0">
+                <p className="mt-5 row align-items-center justify-content-center social-links" id="follow">
+                  Follow us on
+                </p>
                 <p className="mt-5 row align-items-center justify-content-center social-links">
-                  Follow us on <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
+                  <a href="https://www.facebook.com/brunzies.bar?fref=ts"><i className="fab fa-3x fa-facebook social-icons"></i></a>
                   or
                   <a href="https://twitter.com/KrisJBruns"><i className="fab fa-3x fa-twitter social-icons"></i></a>
                 </p>
-                <hr className="divider my-4"/>
+                {/* <hr className="divider my-4"/> */}
                 <div className="giftcard mt-4 text-right text-white-75">
                   <p>
                     Have a giftcard?<br />

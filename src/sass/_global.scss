@@ -177,9 +177,14 @@ header.masthead div div div p {
 }
 
 .about-hours a {
-	// color: blue;
+	//color: blue;
 	font-size: 1.5em;
 	font-weight: bold;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
 }
 
 .current-hours {
@@ -246,13 +251,26 @@ header.masthead div div div p {
 }
 
 .social-links {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
+
+// #follow {
+// 	font-size: 2em;
+// }
 
 .social-icons {
 	margin: 0 1rem;
 	color: #4267b2;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	&:hover {
+		font-size: 3.5em;
+	}
 }
+
 
 .specials {
 	font-size: 1.2rem;
@@ -324,7 +342,7 @@ em {
 	}
 
 	.social-links {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 }
 
