@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -61,32 +62,15 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="text-white text-center about-hours">
-                <h1 className="text-shadow mt-0 hours-emphasis special-elite">Hours</h1>
-                  {/* <hr className="divider my-4"/> */}
-                  {/* <h5 className="text-left my-4"><em>From the Brunzies <a className="text-shadow" href="https://www.facebook.com/brunzies.bar?fref=ts">facebook</a> page</em></h5> */}
-                  <div className="covid-container">
-                    <div className="text-left text-shadow">
-                    {/* <h3 className="text-center"> Indiana County has gone <br/><p className="green my-3 swanky">GREEN!</p></h3><br/> */}
-                      {/* <p className="text-center">Limited indoor capacity along with new, spacious outdoor seating!</p> <br/> */}
-                      <hr/>
-                      <p className="about-hours">Hours for Brunzies</p>
-                      <p className="text-right hours-text my-3">4pm-11pm</p>
-                      <hr/>
-                      <p className="about-hours">Hours for SUBS 'n SUDS</p>
-                      <p className="text-right hours-text my-3">11am-11pm</p>
-                      <hr/>
-                      <p>Takeout available! <br/> Please call ahead to place your order!</p> 
-                      <p className="text-center"><a href="tel:724-349-2770">(724) 349-2770</a></p>
-                      <p  className="text-right">We will continue to keep everyone posted on any changes. <br/><br/>Stay safe, friends!</p>
-                    </div>
-                  </div>
-                  {/* <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
-                  <h3 className="text-right text-shadow">4pm - Midnight</h3>
-                  <h3 className="text-shadow mt-5">Friday-Saturday</h3>
-                  <h3 className="text-right text-shadow">4pm - 2am</h3> */}
-                  <hr className="divider my-4"/>
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
-                  onClick={Scroller.handleAnchorScroll}>See Our Menus!</a>
+                <h1 className="text-shadow mt-0">Hours</h1>
+                <hr className="divider my-4"/>
+                <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
+                <h3 className="text-right text-shadow">4pm - Midnight</h3>
+                <h3 className="text-shadow mt-5">Friday-Saturday</h3>
+                <h3 className="text-right text-shadow">4pm - 2am</h3>
+                <hr className="divider my-4"/>
+                <OutboundLink className="btn btn-primary btn-xl js-scroll-trigger" href="#menu"
+                  onClick={Scroller.handleAnchorScroll}>See Our Menus!</OutboundLink>
               </div>
             </div>
           </div>
@@ -100,13 +84,13 @@ export default class IndexPage extends React.Component {
             <hr className="divider my-4"/>
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="menus/brunzies-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
+                <OutboundLink className="portfolio-box" href="menus/brunzies-page-1.jpg" onClick={this.handlePortfolioClick.bind(this, 6)}>
                   <Img fluid={this.props.data.images.edges[6].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-name">
                     </div>
                   </div>
-                </a>
+                </OutboundLink>
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="menus/brunzies-page-2.jpg" onClick={this.handlePortfolioClick.bind(this, 7)}>
