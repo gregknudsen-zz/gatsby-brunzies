@@ -68,6 +68,7 @@ export default class IndexPage extends React.Component {
                     <div className="text-left text-shadow">
                     {/* <h3 className="text-center"> Indiana County has gone <br/><p className="green my-3 swanky">GREEN!</p></h3><br/> */}
                       {/* <p className="text-center">Limited indoor capacity along with new, spacious outdoor seating!</p> <br/> */}
+                      <h2 className="text-shadow text-center my-3 closed-mondays">Closed Mondays</h2>
                       <hr/>
                       <p className="about-hours">Hours for Brunzies</p>
                       <p className="text-right hours-text my-3">4pm-11pm</p>
@@ -146,7 +147,7 @@ export default class IndexPage extends React.Component {
           <div className="container text-center specials covid-container">
             <h1 className="text-center text-white text-shadow mt-0">Daily Drink Specials</h1>
             <hr className="divider my-4"/>
-            <h3 className="text-shadow text-left mt-3">Monday-Saturday: <br/>9-11pm</h3>
+            <h3 className="text-shadow text-left mt-3">Tuesday-Saturday: <br/>9-11pm</h3>
             <h3 className="text-shadow text-right mt-5">1/2 off all drafts!</h3>
             <h3 className="text-shadow text-right">1/2 off all well drinks!</h3>
             <hr className="divider my-4"/>
