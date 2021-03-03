@@ -12,7 +12,7 @@ const Map = () => {
     zoom: 15
   };
 
-  console.log('USE MAPS', useMaps)
+  // console.log('USE MAPS', useMaps)
   // const AnyReactComponent = () => <div><i className="fas fa-map-pin fa-2x"></i></div>;
 
   return (
