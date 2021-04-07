@@ -71,10 +71,10 @@ export default class IndexPage extends React.Component {
                       <h2 className="text-shadow text-center my-3 closed-mondays">Closed Mondays</h2>
                       <hr/>
                       <p className="about-hours">Hours for Brunzies</p>
-                      <p className="text-right hours-text my-3">4pm-12pm</p>
+                      <p className="text-right hours-text my-3">4pm-Midnight</p>
                       <hr/>
                       <p className="about-hours">Hours for SUBS 'n SUDS</p>
-                      <p className="text-right hours-text my-3">11am-12pm</p>
+                      <p className="text-right hours-text my-3">11am-Midnight</p>
                       <hr/>
                       <p>Takeout available! <br/> Please call ahead to place your order!</p> 
                       <p className="text-center"><a href="tel:724-349-2770">(724) 349-2770</a></p>
