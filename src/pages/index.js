@@ -163,12 +163,12 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
             <hr className="divider my-4" />
-            {/* <div className="row justify-content-center no-gutters">
+             <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/subs-menu-page-1.jpg"
-                  onClick={this.handlePictureClick.bind(this, 7)}
+                  href="menus/subs-april-2021-p1.jpg"
+                  onClick={this.handlePictureClick.bind(this, 8)}
                 >
                   <Img
                     fluid={
@@ -183,8 +183,8 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/subs-menu-page-2.jpg"
-                  onClick={this.handlePictureClick.bind(this, 7)}
+                  href="menus/subs-april-2021-p2.jpg"
+                  onClick={this.handlePictureClick.bind(this, 9)}
                 >
                   <Img
                     fluid={
@@ -196,7 +196,7 @@ export default class IndexPage extends React.Component {
                   </div>
                 </a>
               </div>
-            </div> */}
+            </div> 
           </div>
         </section>
 
