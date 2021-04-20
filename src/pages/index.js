@@ -168,7 +168,7 @@ export default class IndexPage extends React.Component {
                 <a
                   className="portfolio-box"
                   href="menus/subs-april-2021-p1.jpg"
-                  onClick={this.handlePictureClick.bind(this, 7)}
+                  onClick={this.handlePictureClick.bind(this, 8)}
                 >
                   <Img
                     fluid={
@@ -184,7 +184,7 @@ export default class IndexPage extends React.Component {
                 <a
                   className="portfolio-box"
                   href="menus/subs-april-2021-p2.jpg"
-                  onClick={this.handlePictureClick.bind(this, 7)}
+                  onClick={this.handlePictureClick.bind(this, 9)}
                 >
                   <Img
                     fluid={
