@@ -211,7 +211,7 @@ export default class IndexPage extends React.Component {
               9-11pm
             </h3>
             <h3 className="text-shadow text-right mt-5">1/2 off all drafts!</h3>
-            <h3 className="text-shadow text-right">1/2 off all well drinks!</h3>
+            <h3 className="text-shadow text-right">$2.50 well drinks!</h3>
             <hr className="divider my-4" />
           </div>
           <a
