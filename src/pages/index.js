@@ -132,7 +132,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/brunzies_july_2021_p1.jpg"
+                  href="menus/brunzies_oct_2021_p1.jpg"
                   onClick={this.handlePictureClick.bind(this, 6)}
                 >
                   <Img
@@ -148,7 +148,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/brunzies_july_2021_p2.jpg"
+                  href="menus/brunzies_oct_2021_p2.jpg"
                   onClick={this.handlePictureClick.bind(this, 7)}
                 >
                   <Img
@@ -163,11 +163,11 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
             <hr className="divider my-4" />
-             <div className="row justify-content-center no-gutters">
+            <div className="row justify-content-center no-gutters">
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/subs_july_2021_p1.jpg"
+                  href="menus/subs_oct_2021_p1.jpg"
                   onClick={this.handlePictureClick.bind(this, 8)}
                 >
                   <Img
@@ -183,7 +183,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/subs_july_2021_p2.jpg"
+                  href="menus/subs_oct_2021_p2.jpg"
                   onClick={this.handlePictureClick.bind(this, 9)}
                 >
                   <Img
@@ -196,7 +196,7 @@ export default class IndexPage extends React.Component {
                   </div>
                 </a>
               </div>
-            </div> 
+            </div>
           </div>
         </section>
 
