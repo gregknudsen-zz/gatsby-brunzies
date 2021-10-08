@@ -3,23 +3,25 @@ import UseMaps from "../hooks/use-maps"
 import GoogleMapReact from "google-map-react"
 
 const Map = () => {
-  const useMaps = UseMaps();
+  const useMaps = UseMaps()
   const defaultProps = {
     center: {
-      lat: useMaps.location.lat,
-      lng: useMaps.location.lng
+      lat: 10.99835602,
+      lng: 77.01502627,
     },
-    zoom: 15
-  };
+    zoom: 15,
+  }
 
   // console.log('USE MAPS', useMaps)
   // const AnyReactComponent = () => <div><i className="fas fa-map-pin fa-2x"></i></div>;
 
   return (
     <>
-    <div className="map-container" style={{ height: '22rem', width: '100%' }}>
+      <div className="map-container" style={{ height: "22rem", width: "100%" }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: process.env.GATSBY_YOUR_GOOGLE_MAPS_GEOCODING_API_KEY }}
+          bootstrapURLKeys={{
+            key: process.env.GATSBY_YOUR_GOOGLE_MAPS_GEOCODING_API_KEY,
+          }}
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
         >
@@ -33,8 +35,7 @@ const Map = () => {
       {/* {useMaps.location.lat}<br />
       {useMaps.location.lng} */}
     </>
-
   )
 }
 
-export default Map;
+export default Map
