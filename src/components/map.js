@@ -1,13 +1,13 @@
 import React from "react"
-import UseMaps from "../hooks/use-maps"
+// import UseMaps from "../hooks/use-maps"
 import GoogleMapReact from "google-map-react"
 
 const Map = () => {
-  const useMaps = UseMaps()
+  // const useMaps = UseMaps()
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
+      lat: 40.622689,
+      lng: -79.01502627,
     },
     zoom: 15,
   }
