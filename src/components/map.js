@@ -6,8 +6,8 @@ const Map = () => {
   // const useMaps = UseMaps()
   const defaultProps = {
     center: {
-      lat: 40.622689,
-      lng: -79.01502627,
+      lat: 40.622623,
+      lng: -79.148038,
     },
     zoom: 15,
   }
@@ -15,6 +15,7 @@ const Map = () => {
   // console.log('USE MAPS', useMaps)
   // const AnyReactComponent = () => <div><i className="fas fa-map-pin fa-2x"></i></div>;
 
+  console.log(process.env.GATSBY_YOUR_GOOGLE_MAPS_GEOCODING_API_KEY);
   return (
     <>
       <div className="map-container" style={{ height: "22rem", width: "100%" }}>
