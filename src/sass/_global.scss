@@ -35,6 +35,10 @@ body:after {
 	text-shadow: 3px 3px 6px #222;
 }
 
+a {
+	font-weight: 700;
+}
+
 a:hover {
 	text-decoration: none;
 }
@@ -43,6 +47,7 @@ a:hover {
 
 .special-elite {
 	font-family: $special-elite-font;
+	letter-spacing: 1.2px;
 }
 
 .swanky {
@@ -78,12 +83,13 @@ hr.light {
 
 .btn-xl {
 	padding: 1.25rem 2.25rem;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	border: none;
 	border-radius: 10rem;
 	transition: 0.5s;
+	letter-spacing: 1.5px;
 }
 
 // Page section padding
@@ -174,6 +180,7 @@ header.masthead div div div p {
 .about-hours {
 	font-family: $special-elite-font;
 	margin: 0 12px;
+	letter-spacing: 0.5px;
 }
 
 .about-hours a {
@@ -265,16 +272,13 @@ header.masthead div div div p {
 .social-icons {
 	margin: 0 1rem;
 	color: #4267b2;
+	text-shadow: 1px 1px #f8f9fa;
 	transition: .5s;
 	-webkit-transition: .5s;
 	-moz-transition: .5s;
 	-ms-transition: .5s;
 	-o-transition: .5s;
-	&:hover {
-		font-size: 3.5em;
-	}
 }
-
 
 .specials {
 	font-size: 1.2rem;

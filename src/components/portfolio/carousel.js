@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 import "./carousel.scss"
 
 const PortfolioCarousel = ({ images, current }) => {
-  console.log('CAORUSEL ITEMS', images);
+  // console.log('CAORUSEL ITEMS', images);
   const carouselItems = images.map((image, index) =>
     <Carousel.Item key={index}>
       <figure>
