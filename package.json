@@ -25,14 +25,14 @@
     "gatsby-transformer-sharp": "^2.2.5",
     "global": "^4.4.0",
     "google-map-react": "^1.1.5",
-    "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.11",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-scrollspy": "^3.4.0",
-    "reactide-config": "^1.0.2"
+    "reactide-config": "^1.0.2",
+    "sass": "^1.51.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.40",
@@ -45,9 +45,8 @@
     "css-loader": "^2.1.1",
     "file-loader": "^4.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^7.3.1",
     "style-loader": "^0.23.1",
     "url-loader": "^2.0.0",
     "webpack": "^4.33.0",
