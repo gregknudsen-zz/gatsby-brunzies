@@ -132,7 +132,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/brunzies_dec_2021_p1.jpg"
+                  href="menus/brunzies-1.jpg"
                   onClick={this.handlePictureClick.bind(this, 6)}
                 >
                   <Img
@@ -148,7 +148,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/brunzies_dec_2021_p2.jpg"
+                  href="menus/brunzies-2.jpg"
                   onClick={this.handlePictureClick.bind(this, 7)}
                 >
                   <Img
@@ -167,7 +167,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/subs_dec_2021_p1.jpg"
+                  href="menus/subs-1.jpg"
                   onClick={this.handlePictureClick.bind(this, 8)}
                 >
                   <Img
@@ -183,7 +183,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-sm-6">
                 <a
                   className="portfolio-box"
-                  href="menus/subs_dec_2021_p2.jpg"
+                  href="menus/subs-2.jpg"
                   onClick={this.handlePictureClick.bind(this, 9)}
                 >
                   <Img
@@ -201,7 +201,7 @@ export default class IndexPage extends React.Component {
         </section>
 
         <section className="page-section text-white text-center" id="specials">
-          <div className="container text-center specials covid-container">
+          <div className="container text-center specials covid-container special-elite">
             <h1 className="text-center text-white text-shadow mt-0">
               Daily Drink Specials
             </h1>
@@ -347,7 +347,7 @@ export default class IndexPage extends React.Component {
             </h1>
             <hr className="divider my-4" />
             <div className="row align-items-center justify-content-center text-shadow covid-container">
-              <div className="text-white text-center contact-info">
+              <div className="text-white text-center contact-info special-elite">
                 <i className="fas fa-phone fa-3x mb-4"></i>
                 <h3 className="text-white mb-4">
                   <a href="tel:724-349-2770"> +1 (724) 349-2770</a>
