@@ -26,12 +26,12 @@ export default class Header extends React.Component {
                   <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#hours" onClick={Scroller.handleAnchorScroll}>Hours</Nav.Link>
                   </li>
-                  <li className="nav-item special-elite">
+                  {/* <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#menu" onClick={Scroller.handleAnchorScroll}>Menus</Nav.Link>
-                  </li>
-                  <li className="nav-item special-elite">
+                  </li> */}
+                  {/* <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#photo-header" onClick={Scroller.handleAnchorScroll}>Photos</Nav.Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item special-elite">
                     <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>
                   </li>
@@ -50,7 +50,29 @@ export default class Header extends React.Component {
               </div>
               <div className="col-lg-8 align-self-baseline">
                 <a className="btn btn-primary btn-xl js-scroll-trigger hours-emphasis" href="#hours" onClick={Scroller.handleAnchorScroll}>View Current Hours</a>
+                  <hr className="divider my-4" />
+                <div className="row justify-content-center">
+                  <div className="col-md-8 col-sm-12 col-lg-6 text-white text-center mb-5 mb-lg-0">
+                    <p
+                      className="mt-5 row align-items-center justify-content-center"
+                      id="follow"
+                    >
+                      Follow us on
+                    </p>
+                    <p className="mt-5 row align-items-center justify-content-center social-links">
+                      <a href="https://www.facebook.com/brunzies.bar?fref=ts" target="_blank">
+                        <i className="fab fa-3x fa-facebook social-icons"></i>
+                      </a>
+                      {/* or
+                      <a href="https://twitter.com/KrisJBruns">
+                        <i className="fab fa-3x fa-twitter social-icons"></i>
+                      </a> */}
+                    </p>
+                    {/* <hr className="divider my-4"/> */}
+                  </div>
+                </div>
               </div>
+              
             </div>
           </div>
         </header>

@@ -90,32 +90,32 @@ export default class IndexPage extends React.Component {
                     <p className="text-center">
                       <a href="tel:724-349-2770">(724) 349-2770</a>
                     </p>
-                    <p className="text-right">
+                    {/* <p className="text-right">
                       We will continue to keep everyone posted on any changes.{" "}
                       <br />
                       <br />
                       Stay safe, friends!
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 {/* <h3 className="text-shadow mt-5">Sunday-Thursday</h3>
                   <h3 className="text-right text-shadow">4pm - Midnight</h3>
                   <h3 className="text-shadow mt-5">Friday-Saturday</h3>
                   <h3 className="text-right text-shadow">4pm - 2am</h3> */}
-                <hr className="divider my-4" />
+                {/* <hr className="divider my-4" />
                 <a
                   className="btn btn-primary btn-xl js-scroll-trigger"
                   href="#menu"
                   onClick={Scroller.handleAnchorScroll}
                 >
                   See Our Menu!
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
         </section>
 
-        <section className="page-section menu-section" id="menu">
+        {/* <section className="page-section menu-section" id="menu">
           <div className="text-center container-fluid p-0">
             <a
               className="mb-5 btn btn-primary btn-xl js-scroll-trigger"
@@ -198,9 +198,9 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="page-section text-white text-center" id="specials">
+        {/* <section className="page-section text-white text-center" id="specials">
           <div className="container text-center specials covid-container special-elite">
             <h1 className="text-center text-white text-shadow mt-0">
               Daily Drink Specials
@@ -227,22 +227,22 @@ export default class IndexPage extends React.Component {
           >
             Photo Gallery
           </h1>
-        </section>
+        </section> */}
 
         <section id="photos">
           <div className="container-fluid p-0">
             <div className="row no-gutters">
               <div className="col-lg-4 col-sm-6">
-                <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/1-beer-overlay.jpg"
-                  onClick={this.handlePictureClick.bind(this, 0)}
+               <a
+                  // className="portfolio-box"
+                  // href="img/portfolio/fullsize/1-beer-overlay.jpg"
+                  // onClick={this.handlePictureClick.bind(this, 0)}
                 >
-                  <Img
+                  {/* <Img
                     fluid={
                       this.props.data.images.edges[0].node.childImageSharp.fluid
                     }
-                  />
+                  /> */}
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50"></div>
                     <div className="project-name">
@@ -254,15 +254,15 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/2-bottles2-overlay.jpg"
-                  onClick={this.handlePictureClick.bind(this, 1)}
+                  // className="portfolio-box"
+                  // href="img/portfolio/fullsize/2-bottles2-overlay.jpg"
+                  // onClick={this.handlePictureClick.bind(this, 1)}
                 >
-                  <Img
+                  {/* <Img
                     fluid={
                       this.props.data.images.edges[1].node.childImageSharp.fluid
                     }
-                  />
+                  /> */}
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50"></div>
                     <div className="project-name">
@@ -274,15 +274,15 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/3-kris-ben-overlay.jpg"
-                  onClick={this.handlePictureClick.bind(this, 2)}
+                  // className="portfolio-box"
+                  // href="img/portfolio/fullsize/3-kris-ben-overlay.jpg"
+                  // onClick={this.handlePictureClick.bind(this, 2)}
                 >
-                  <Img
+                  {/* <Img
                     fluid={
                       this.props.data.images.edges[2].node.childImageSharp.fluid
                     }
-                  />
+                  /> */}
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50"></div>
                     <div className="project-name">
@@ -294,15 +294,15 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a
-                  className="portfolio-box"
-                  href="images/portfolio/fullsize/4-stools-overlay.jpg"
-                  onClick={this.handlePictureClick.bind(this, 3)}
+                  // className="portfolio-box"
+                  // href="images/portfolio/fullsize/4-stools-overlay.jpg"
+                  // onClick={this.handlePictureClick.bind(this, 3)}
                 >
-                  <Img
+                  {/* <Img
                     fluid={
                       this.props.data.images.edges[3].node.childImageSharp.fluid
                     }
-                  />
+                  /> */}
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50"></div>
                     <div className="project-name">{/* Project Name */}</div>
@@ -311,28 +311,28 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/5-table-overlay.jpg"
-                  onClick={this.handlePictureClick.bind(this, 4)}
+                  // className="portfolio-box"
+                  // href="img/portfolio/fullsize/5-table-overlay.jpg"
+                  // onClick={this.handlePictureClick.bind(this, 4)}
                 >
-                  <Img
+                  {/* <Img
                     fluid={
                       this.props.data.images.edges[4].node.childImageSharp.fluid
                     }
-                  />
+                  /> */}
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
                 <a
-                  className="portfolio-box"
-                  href="img/portfolio/fullsize/6-bottles4-overlay.jpg"
-                  onClick={this.handlePictureClick.bind(this, 5)}
+                  // className="portfolio-box"
+                  // href="img/portfolio/fullsize/6-bottles4-overlay.jpg"
+                  // onClick={this.handlePictureClick.bind(this, 5)}
                 >
-                  <Img
+                  {/* <Img
                     fluid={
                       this.props.data.images.edges[5].node.childImageSharp.fluid
                     }
-                  />
+                  /> */}
                   <div className="portfolio-box-caption p-3"></div>
                 </a>
               </div>
@@ -368,7 +368,7 @@ export default class IndexPage extends React.Component {
             </div>
             <div className="row justify-content-center">
               <div className="col-md-8 col-sm-12 col-lg-6 text-white text-center mb-5 mb-lg-0">
-                <p
+                {/* <p
                   className="mt-5 row align-items-center justify-content-center social-links"
                   id="follow"
                 >
@@ -382,9 +382,8 @@ export default class IndexPage extends React.Component {
                   <a href="https://twitter.com/KrisJBruns">
                     <i className="fab fa-3x fa-twitter social-icons"></i>
                   </a>
-                </p>
-                {/* <hr className="divider my-4"/> */}
-                <div className="giftcard mt-4 text-right text-white-75">
+                </p> */}
+                <div className="giftcard mt-4 text-white-75">
                   <p>
                     Have a giftcard?
                     <br />
